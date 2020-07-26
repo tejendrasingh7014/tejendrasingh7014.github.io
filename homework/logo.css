@@ -1,0 +1,153 @@
+*{margin: 0; padding: 0 ;  font-family: 'raleway', sans-serif }
+header{
+    width: 100;
+   height: 100vh;
+    
+}
+
+navsection{
+   
+}
+ 
+logo{
+
+
+}
+
+nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #be3144;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+
+}
+    
+nav a{
+    float: right;
+    display: block;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    height: 30px;
+    font-size: 25px;
+    font-family: 'raleway', sans-serif;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color:white;
+    padding-top: 130px;
+    font-size: 60px;
+}
+
+h3{
+    text-align: center;
+    color: #be3144;
+    padding: 50px;
+    font-size: 30px;
+}
+body{
+    overflow: scroll;
+    margin: 0px;
+    background-color: #45567d;
+}
+h2{
+    padding-top: 370px;
+    font-size: 50px;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    text-align: center;
+  
+
+}
+
+img{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+.image-caption{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.button{
+float: center;
+display: block;
+color:white;
+text-align: center;
+padding-top: 70px;
+font-size: 30px;
+padding-bottom: 50px;  
+}
+
+footer{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 8000px;
+    height: 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #f0f0f0;
+  }
+
+ .work{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color:white;
+    padding-top: 200px;
+    font-size: 60px;
+}
+  p{
+font-size: 23px;
+}
+
+  .media img{
+ height: 20px;
+ width: 20px;
+}
+
+ 
+.facebook{
+    padding-left: 300px;
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+  
+}
+.github{
+  
+    font-size: 25px;
+    font-family: 'poppins', sans-serif; 
+      
+}
+.twitter{
+  
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+    
+}
+.call{
+    
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+    
+}
+.email{
+    
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+   
+}
+
+ 
