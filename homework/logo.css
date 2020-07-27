@@ -41,6 +41,13 @@ nav a{
     padding: 20px;
 }
 
+nav a:hover{
+    border:1px solid black ;
+    border-color: black;
+    color: wheat;
+    background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+
+}
 
 
 h1{
@@ -61,6 +68,7 @@ body{
     overflow: scroll;
     margin: 0px;
     background-color: #45567d;
+    
 }
 h2{
     padding-top: 370px;
@@ -81,18 +89,32 @@ img{
     font-size: 25px;
     color: white;
     font-family: 'poppins', sans-serif;
+    
+    
+    
 }
 
 
-.button{
-float: center;
-display: block;
-color:white;
-text-align: center;
-padding-top: 70px;
-font-size: 30px;
-padding-bottom: 50px;  
+button{
+ 
+ align-items: center;
+ margin-left: 42%;
+  font-size: 35px;
+ border: 1px black solid ;
+ margin-top:100px ;
+ margin-bottom: 100px;
+ cursor: pointer;
+ background-color: black;
+ font-style: italic;
+ color: #f0f0f0;
+ text-decoration: none;
+ padding: 10px 20px;
+ border-radius: 25px;  
 }
+
+.button :hover{
+    background-color: red;
+}  
 
 footer{
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 8000px;
@@ -123,31 +145,68 @@ font-size: 23px;
     padding-left: 300px;
     font-size: 25px;
     font-family: 'poppins', sans-serif;
-  
+  transition: both 0.3s linear;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 .github{
   
     font-size: 25px;
     font-family: 'poppins', sans-serif; 
-      
+    transition: all 0.3s linear;
+    cursor: pointer;
 }
 .twitter{
   
     font-size: 25px;
     font-family: 'poppins', sans-serif;
-    
+    transition: all 0.3s linear ;
+    cursor: pointer;
 }
 .call{
     
     font-size: 25px;
     font-family: 'poppins', sans-serif;
-    
+    transition: all 0.3s linear ;
+    cursor: pointer;
 }
 .email{
     
     font-size: 25px;
     font-family: 'poppins', sans-serif;
-   
+    transition: all 0.3s ease-out ;
+    text-shadow: 2px 2px 1px ,white ;
+    animation: alternate;
+    cursor: pointer;
 }
 
+ .facebook :hover{
+     padding-top: 8px;
+     
+ }
+
+ .github :hover {
+    padding-top: 8px;
+ }
+
+ .twitter :hover{
+    padding-top: 8px;
+ }
+
+ .call :hover{
+    padding-top: 8px;
+ }
+
+ .email :hover{
+    padding-top: 8px;
+ }
+
+
  
+
+ 
+  
+    
+    
+
+     
