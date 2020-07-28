@@ -1,0 +1,82 @@
+     *{ font-family: 'Rubik', sans-serif; }
+
+
+body{
+    text-align: center;
+    overflow: scroll;
+    font-family: helvetica;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+
+
+
+.body{
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.name{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.email{
+ padding: 15px;
+ border-radius: 10px;
+ width: 560px;
+}
+
+.age{
+    width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.option{
+    width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.enter{
+    width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.comment{
+    width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.button{
+    width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.small {
+    font-size: 18px;
+    padding-left: 15px;
+}
+.i{
+    color: white;
+}
