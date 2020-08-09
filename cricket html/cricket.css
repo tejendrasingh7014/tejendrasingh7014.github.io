@@ -151,6 +151,7 @@ button{
     font-size: 18px;
     color:black;
     height: 600px;
+    margin-top: 30px;
     
 }
 
@@ -163,6 +164,7 @@ button{
     font-size: 20px;
     color:black;
     height: 600px;
+    margin-top: 30px;
 }
 
 .y{
@@ -174,6 +176,8 @@ button{
     font-size: 18.6px;
     color:black;
     height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
   
@@ -213,5 +217,9 @@ h6{
     font-size: 15px;
     font-weight: 300;
     
+}
+
+ .ad{
+    justify-content: space-around;
 }
 
