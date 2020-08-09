@@ -1,0 +1,176 @@
+*{margin: 0%; padding: 0%;}
+
+nav a{
+    float: right;
+    color: #202020;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+    padding-top: 5px;
+    display: block;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.logo{
+   
+    height: 5px;
+    margin-top: 10px;
+}
+
+.text{
+  text-align: center;
+  margin-top: 50px;
+  background: #007BD5;
+  color: white;
+  padding: 0px 0 80px 0;
+  
+}
+
+h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.email{
+    padding: 10px;
+    width: 400px;
+}
+
+button{
+    padding: 11px;
+    width: 200px;
+    background-color: #ee1133;
+    color: white;
+    border:#ee1133 ;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+.back{
+    background: hsla(230,7%,84%,1);
+}    
+    
+.ad{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+
+.non{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+   
+
+}
+
+
+h6{
+    color: hsl(0deg 0% 80%);
+    font-size: 10px;
+    
+}
+
+.no{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+}
+
+.n{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+    
+}
+
+.q{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 18px;
+    color:black;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+
+.w{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+}
+
+.e{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+
+}
+
+
+.r{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 18px;
+    color:black;
+    
+}
+
+.t{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+}
+
+.y{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 18.6px;
+    color:black;
+
+}
+    
+    
+
