@@ -67,47 +67,46 @@ button{
 
 
 .non{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
    
 
 }
 
 
-h6{
-    color: hsl(0deg 0% 80%);
-    font-size: 10px;
     
-}
 
 .no{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
 }
 
 .n{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
     
 }
 
 .q{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
@@ -116,61 +115,103 @@ h6{
     color:black;
     margin-top: 29px;
     margin-bottom: 30px;
+    height: 600px;
 }
 
 .w{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
 }
 
 .e{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
 
 }
 
 
 .r{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 18px;
     color:black;
+    height: 600px;
     
 }
 
 .t{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 20px;
     color:black;
+    height: 600px;
 }
 
 .y{
-    width: 300px;
+    width: 370px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: left;
     font-size: 18.6px;
     color:black;
+    height: 600px;
 
 }
+  
+.m a{
+    text-decoration: black;
+    color: black;
+    font-weight: 900px bolder;
     
     
+}
+
+.b {
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 60px;
+    
+}
+
+.b a{
+    color: white;
+    align-items: center;
+    align-content: center;
+    padding-right: 100px;
+    float: right;
+    
+    
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    
+}
+    
+
+h6{
+    color: hsl(0deg 0% 80%);
+    font-size: 15px;
+    font-weight: 300;
+    
+}
 
