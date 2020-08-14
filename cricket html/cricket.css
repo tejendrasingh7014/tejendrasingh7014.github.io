@@ -247,7 +247,7 @@ h4:hover{
     text-decoration: underline solid ;
     font-weight: lighter;
     
-    display: block;
+    
     
     
 }
@@ -257,7 +257,7 @@ h4:hover{
 h4:hover::before {
 font-weight: lighter;
 
-display: block;
+
 
 }
 
@@ -278,13 +278,7 @@ h6{
     justify-content: space-around;
 }
 
-body{
-    display: block;
-    
-    
-    
-      
-}
+
 
 .bt{
     font-family: Raleway, Arial, Helvetica;
@@ -321,6 +315,12 @@ button:hover{
     padding-left: 450px;
     
 }
+
+
+
+
+
+
 
 
 
