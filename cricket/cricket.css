@@ -76,14 +76,15 @@ button{
     font-family: var(--text-font);
 }
 
-.back{
-    background: hsla(230,7%,84%,1);
+back{
+    
 }    
     
 .ad{
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
+    background: hsla(230,7%,84%,1);
     
 }
 
@@ -319,6 +320,10 @@ button:hover{
 nav a:active{
     text-decoration: underline;
 }
+
+
+
+
     
 
 
