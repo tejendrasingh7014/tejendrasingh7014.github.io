@@ -321,7 +321,7 @@ nav a:active{
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .md{
         width: 830px;
     }   
