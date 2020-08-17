@@ -581,40 +581,40 @@ nav a{
     text-decoration: none;
     font-size: 16px;
     color: black;
-    display: block;
+    
 }
 
-.foo a{
+.foo{
     left: 350px;
     position: absolute;
-    margin-top:3660px;
+    margin-top:3600px;
     text-decoration: none;
     font-size: 16px;
     color: black;
 }
 
-.nts a{
+.nts{
     left: 560px;
     position: absolute;
-    margin-top:3660px;
+    margin-top:3600px;
     text-decoration: none;
     font-size: 16px;
     color: black;
 }
 
-.ou a{
+.ou{
     left: 810px;
     position: absolute;
-    margin-top:3660px;
+    margin-top:3600px;
     text-decoration: none;
     font-size: 16px;
     color: black;
 }
 
-.nks a{
+.nks{
     left: 980px;
     position: absolute;
-    margin-top:3660px;
+    margin-top:3600px;
     text-decoration: none;
     font-size: 16px;
     color: black;
@@ -665,6 +665,224 @@ nav a{
     font-size: 16px;
     color: rgb(130, 130, 130);
 }
+
+.code a{
+    left: 350px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ity a{
+    left: 350px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.help a{
+    left: 350px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.per a{
+    left: 350px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.app a{
+    left: 350px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ad a{
+    left: 560px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.list a{
+    left: 560px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.bus a{
+    left: 560px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.wid a{
+    left: 560px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.pro a{
+    left: 560px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.vacy a{
+    left: 810px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ms a{
+    left: 810px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.sec a{
+    left: 810px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.sit a{
+    left: 810px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.india{
+    height: 3.0015rem;
+    transform: scale(0.488889);
+    margin-left: -1.2rem;
+    background-position: -141px 0px;
+    border: 1px solid  rgb(130, 130, 130); 
+    border-radius: 5px;
+    bottom: 0.5px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: -40px;
+    margin-left: -9px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.kk{
+    left: 890px;
+    position: absolute;
+    margin-top:3510px;
+}
+.ind{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:5px ;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.ii{
+    left: 1040px;
+    position: absolute;
+    margin-top:3510px;
+}
+
+.world{
+    height: 3.0015rem;
+    transform: scale(0.488889);
+    margin-left: -1.2rem;
+    background-position: -141px 0px;
+    border: 1px solid  rgb(130, 130, 130); 
+    border-radius: 5px;
+    bottom: 0.5px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: -40px;
+    margin-left: -9px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.wor{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:5px ;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.ios{
+    width: 14.7rem;
+    height: 6rem;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top:3650px;
+    position: absolute;
+    left: 925px;
+}
+
+dd{
+   
+    
+    
+    margin-top:3790px;
+   
+}
+
 
 
 
