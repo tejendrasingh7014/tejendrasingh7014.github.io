@@ -511,6 +511,162 @@ nav a{
     text-decoration: none;
 }
 
+.del{
+    font-size:25px ;
+    left: 150px;
+    position: absolute;
+    margin-top:2900px;
+    text-decoration: none;
+}
+
+.cr{
+    color: rgb(130, 130, 130);
+    left: 150px;
+    position: absolute;
+    margin-top:2960px;
+    text-decoration: none;
+}
+
+.ko{
+    color: rgb(130, 130, 130);
+    left: 350px;
+    position: absolute;
+    margin-top:2960px;
+    text-decoration: none;
+}
+
+.mum{
+    color: rgb(130, 130, 130);
+    left: 560px;
+    position: absolute;
+    margin-top:2960px;
+    text-decoration: none;
+}
+
+.ru{
+    color: rgb(130, 130, 130);
+    left: 760px;
+    position: absolute;
+    margin-top:2960px;
+    text-decoration: none;
+}
+
+.pu{
+    color: rgb(130, 130, 130);
+    left: 980px;
+    position: absolute;
+    margin-top:2960px;
+    text-decoration: none;
+}
+
+.bo a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.mato{
+    left: 150px;
+    position: absolute;
+    margin-top:3500px;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.company {
+    left: 150px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+}
+
+.foo a{
+    left: 350px;
+    position: absolute;
+    margin-top:3660px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nts a{
+    left: 560px;
+    position: absolute;
+    margin-top:3660px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.ou a{
+    left: 810px;
+    position: absolute;
+    margin-top:3660px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nks a{
+    left: 980px;
+    position: absolute;
+    margin-top:3660px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.out a {
+    left: 150px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+    margin-top:3630px;
+
+}
+
+.og a{
+    left: 150px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.car a{
+    left: 150px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ort a{
+    left: 150px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.act a{
+    left: 150px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+
 
 
 
