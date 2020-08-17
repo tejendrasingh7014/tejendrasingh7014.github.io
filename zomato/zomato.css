@@ -1,0 +1,541 @@
+*{margin: 0; padding: 0; }
+
+body{
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+
+
+
+nav{
+   position:absolute;
+   bottom: 580px;
+   left: 1090px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.go{
+    position: absolute;
+    margin-left: 120px;
+    bottom: 580px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.zomato{
+    font-size: 90px;
+    bottom: 360px;
+    left: 530px;
+    color:white;
+    position: absolute;
+}
+
+.best{
+    font-size: 35px;
+    bottom: 305px;
+    left: 310px;
+    color:white;
+    position: absolute;
+}
+
+.text{
+    border: 5px solid white;
+    border-radius: 8px ;
+    background-color: white;
+    bottom: 230px;
+    left: 350px;
+    position: absolute;
+    padding: 10px;
+    width: 600px;
+}
+
+.flood{
+    position: absolute;
+    padding-right: 60px;
+    font-size: 25px;
+    margin-top: 630px;
+    margin-left: 80px;
+    
+}
+
+.ro{
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+}
+
+.first{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:10px ;
+    border: 1px solid gainsboro;
+    left: 10px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.second{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:10px ;
+    border: 1px solid gainsboro;
+    left: 302px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.thrid{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:10px ;
+    border: 1px solid gainsboro;
+    left: 593px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.forth{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:10px ;
+    border: 1px solid gainsboro;
+    left: 884px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    
+}
+
+.down{
+    margin-top: 940px;
+    position: absolute;
+}
+
+.name{
+    font-size: 38px;
+    margin-left: 100px;
+}
+
+.up{
+    margin-top: 410px; 
+}
+
+.tag{
+    margin-left: 100px;
+    font-size: 21px; 
+}
+
+.floor{
+    padding-right: 60px;
+    font-size: 25px;
+   
+}
+
+.round{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ld{
+    position: absolute;
+    left: 30px;
+    color: white;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.one{
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top:50px ;
+}
+
+.two{
+    position: absolute;
+    margin-left: 370px;
+    margin-top:50px ;
+}
+
+.three{
+    position: absolute;
+    margin-left: 690px;
+    margin-top:50px ;
+}
+
+.four{
+    position: absolute;
+    margin-left: 1010px;
+    margin-top:50px ;
+}
+
+.hig{
+    position: absolute;
+    margin-top:880px ;
+    font-size: 35px;
+    left: 360px;
+}
+
+.bu{
+    border: 1px solid gainsboro ; 
+    border-radius: 10px;
+    color: #000;
+    height: 50px;
+    width: 330px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+     
+}
+
+.a{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:965px;
+}
+
+.b{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 550px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:965px;
+} 
+
+.c{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 950px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:965px;
+}
+
+.d{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1060px;
+}
+
+.e{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 550px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1060px;
+}
+
+.f{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 950px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1060px;
+}
+
+.g{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1155px;
+}
+
+.h{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 550px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1155px;
+}
+
+.i{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 950px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1155px;
+}
+
+.j{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1250px;
+}
+
+.k{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 550px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1250px;
+}
+
+.l{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 950px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1250px;
+}
+
+.m{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1345px;
+}
+
+.n{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 550px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1345px;
+}
+
+.o{
+    font-size: 10px;
+    border: 1px solid gainsboro ; 
+    border-radius: 10px; 
+    left: 950px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1345px;
+    
+}
+
+.phone{
+    margin-top:1600px;
+    left: 300px;
+    position: absolute;
+    
+      
+}
+
+.mk{
+    margin-top:1620px;
+    position: absolute;
+    left: 610px;
+    font-size: 50px;
+   
+}
+
+.ak{
+    margin-top:1700px;
+    position: absolute;
+    left: 610px;
+    font-size: 19px;
+   
+}
+
+.bk{
+    margin-top:1850px;
+    position: absolute;
+    left: 655px;
+    font-size: 19px;
+    color: gray;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.play{
+    width: 14.7rem;
+    height: 6rem;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top:1900px;
+    position: absolute;
+    left: 610px;
+}
+
+
+.explore{
+    font-size: 31px;
+    margin-top:2150px;
+    position: absolute;
+    left: 150px;
+}
+
+.popular{
+    margin-top:2220px;
+    position: absolute;
+    left: 150px;
+    font-size: 25px;
+}
+
+.near{
+    margin-top:2270px;
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+   
+}
+
+
+.res{
+    margin-top:2430px;
+    position: absolute;
+    left: 150px;
+    font-size: 25px;
+}
+
+.me{
+    margin-top:2480px;
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+}
+
+.chains{
+    margin-top:2640px;
+    position: absolute;
+    left: 150px;
+    font-size: 25px;
+}
+
+.bi{
+   
+    font-size: 18px;
+    
+    
+}
+
+.bik{
+    color: rgb(130, 130, 130);
+    left: 150px;
+    position: absolute;
+    margin-top:2700px;
+    text-decoration: none;
+
+}
+
+.blu{
+    color: rgb(130, 130, 130);
+    left: 350px;
+    position: absolute;
+    margin-top:2700px;
+    text-decoration: none;
+}
+
+.bt{
+    color: rgb(130, 130, 130);
+    left: 560px;
+    position: absolute;
+    margin-top:2700px;
+    text-decoration: none;
+}
+
+.bur{
+    color: rgb(130, 130, 130);
+    left: 760px;
+    position: absolute;
+    margin-top:2700px;
+    text-decoration: none;
+}
+
+.ger{
+    color: rgb(130, 130, 130);
+    left: 980px;
+    position: absolute;
+    margin-top:2700px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
