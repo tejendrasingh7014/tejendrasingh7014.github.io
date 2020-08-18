@@ -56,6 +56,8 @@ nav a{
     position: absolute;
     padding: 10px;
     width: 600px;
+    cursor: text;
+    
 }
 
 .flood{
@@ -895,6 +897,15 @@ nav a{
     font-size: 15px;
     color: rgb(130, 130, 130);
 }
+
+.se{
+    position: absolute;
+    top: 352.5px;
+    margin-left: 897px;
+    
+}
+
+
 
 
 
