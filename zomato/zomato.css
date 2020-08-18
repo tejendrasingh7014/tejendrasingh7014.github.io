@@ -160,25 +160,25 @@ nav a{
 .one{
     border-radius: 8px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top:50px ;
 }
 
 .two{
     position: absolute;
-    margin-left: 370px;
+    margin-left: 382px;
     margin-top:50px ;
 }
 
 .three{
     position: absolute;
-    margin-left: 690px;
+    margin-left: 674px;
     margin-top:50px ;
 }
 
 .four{
     position: absolute;
-    margin-left: 1010px;
+    margin-left: 966px;
     margin-top:50px ;
 }
 
@@ -902,7 +902,7 @@ nav a{
     position: absolute;
     top: 352.5px;
     margin-left: 897px;
-    
+    cursor: pointer;
 }
 
 
