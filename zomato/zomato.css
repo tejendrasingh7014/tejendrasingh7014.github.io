@@ -957,14 +957,14 @@ nav a{
        width: 1340px;
        
    }
+   .singup {
+       position: absolute;
+       left: 40px;
+       top: -265px;
+   }
    .login {
        position: absolute;
-       left: 100px;
-       bottom: -15px;
-   }
-   .singup{
-       position: absolute;
-       bottom: -15px;
+       top: -265px;
    }
    .best{
        font-size: 30px;
@@ -986,7 +986,7 @@ nav a{
    }
    .tag{
        position: absolute;
-       right: -650px;
+       right: -485px;
    }
    .loca{
        position: absolute;
@@ -1012,7 +1012,9 @@ nav a{
        right: -460px;
    }
    .col::before{
-       right: -1000px;
+       left: 25px;
+       position: absolute;
+
    }
    .explore{
        right: -450px;
@@ -1021,13 +1023,13 @@ nav a{
        right: -450px;
    }
    .near{
-       right: -900px;
+       right: -770px;
    }
    .res{
     right: -450px;
    }
    .me{
-    right: -925px;
+    right: -790px;
    }
    .chains{
     right: -450px;
