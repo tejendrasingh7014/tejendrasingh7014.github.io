@@ -952,7 +952,7 @@ nav a{
 }
 
 
-@media(max-width:  400px) {
+@media(max-width: 500px) {
    .main {
        width: 1340px;
        
@@ -1095,6 +1095,76 @@ nav a{
     position: absolute;
    }
 }
+
+@media(max-width: 1024px){
+    .se{
+        top: 351.5px;
+        position: absolute;
+       
+    }
+    .main{
+        width: 1340px;
+    }
+    .best{
+        left: 300px;
+        top: 280px;
+    }
+    .login {
+        bottom: -15px;
+        position: absolute;
+        right: 20px;
+    }
+    .singup {
+        bottom: -15px;
+        position: absolute;
+        right: -50px;
+    }
+    .go{
+        top: 25px;
+        position: absolute;
+        
+    }
+    .text {
+        position: absolute;
+        top: 350px;
+        height: 45px;
+    }
+    .zomato{
+        top: 160px;
+    }
+    .mk{
+       
+        position: absolute;
+        right: -920px;
+    }
+    .ak{
+        position: absolute;
+        right: -900px;
+        font-size: 17px;
+    }
+    .bk{
+        position: absolute;
+        right: -460px;
+    }
+    .col::before{
+        right: -328px;
+    }
+    .bi a{
+        right: -790px;
+    }
+    .nks{
+        position: absolute;
+        right: -790px;
+    }
+    .gg{
+        position: absolute;
+        right: -790px;
+    }
+    
+}
+
+
+
 
 
 
