@@ -943,12 +943,12 @@ nav a{
     content: "";
     position: absolute;
     background: rgb(255, 251, 247);
-    width: 10000px;
+    width: 1350px;
     height: 500px;
     top: 2150px;
-    right: -480px;
+    right: 0px;
     z-index: -1;
-    /* phone-image background - colour*/
+    /* phone-image background - colour   */
 }
 
 
