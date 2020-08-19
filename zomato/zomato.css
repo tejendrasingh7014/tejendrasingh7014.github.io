@@ -987,6 +987,7 @@ nav a{
    .tag{
        position: absolute;
        right: -620px;
+font-size: 18px;
    }
    .loca{
        position: absolute;
@@ -995,7 +996,7 @@ nav a{
    /*.hii{
        right: -700px;
        position: absolute;
-       top: 40px;*/
+       top: 40px; remove from loca tag*/
    }
    .mk{
        
