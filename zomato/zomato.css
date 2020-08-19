@@ -921,7 +921,6 @@ nav a{
     width: 10000px;
     height: 400px;
     top: -210px;
-    position: absolute;
     right: -480px;
     z-index: -1
 }
@@ -936,6 +935,18 @@ nav a{
     top: 120px;
     right: -360px;
 }
+
+.col::before{
+    content: "";
+    position: absolute;
+    background: rgb(255, 251, 247);
+    width: 10000px;
+    height: 500px;
+    top: 2150px;
+    right: -480px;
+    z-index: -1
+}
+
 
 
 
