@@ -898,18 +898,6 @@ nav a{
     left: 925px;
 }
 
-.sit a::before {
-    content: "";
-    position: absolute;
-    margin: auto;
-    height: 2px;
-    background: #29242405;
-    width: 1100px;
-    top: 120px;
-    right: -360px;
-    
-}
-
 .gg{
     left: 135px;
     position: absolute;
@@ -927,15 +915,15 @@ nav a{
 }
 
 .sit a::before{
-   
-    -webkit-tap-highlight-color: transparent;
+    content: "";
+    position: absolute;
+    background: #29242405;
     width: 10000px;
     height: 400px;
     top: -210px;
     position: absolute;
     right: -480px;
     z-index: -1
-
 }
 
 .sec a::before{
