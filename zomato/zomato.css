@@ -191,13 +191,13 @@ nav a{
     left: 360px;
 }
 
-.hii{
+/*.hii{
     left: 500px;
     margin-top:-40px ;
     position: relative;
     font-weight: bold;
 
-}
+}*/
 
 .loca{
     font-weight: 300;
@@ -909,7 +909,7 @@ nav a{
 
 .se{
     position: absolute;
-    top: 351.5px;
+    top: 334.6px;
     margin-left: 897px;
     cursor: pointer;
 }
@@ -986,16 +986,16 @@ nav a{
    }
    .tag{
        position: absolute;
-       right: -615px;
+       right: -620px;
    }
    .loca{
        position: absolute;
-       right: -500px;
+       right: -700px;
    }
-   .hii{
+   /*.hii{
        right: -700px;
        position: absolute;
-       top: 40px;
+       top: 40px;*/
    }
    .mk{
        
@@ -1096,7 +1096,7 @@ nav a{
     right: -350px;
     
    }
-}
+
 
 @media(max-width: 1024px){
     .se{
