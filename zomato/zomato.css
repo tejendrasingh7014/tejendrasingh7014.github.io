@@ -989,7 +989,7 @@ nav a{
    .tag{
        position: absolute;
        right: -495px;
-       font-size: 18px;
+       font-size: 17px;
    }
    .loca{
        position: absolute;
@@ -1026,13 +1026,13 @@ nav a{
        right: -450px;
    }
    .near{
-       right: -70px;
+       right: -900px;
    }
    .res{
     right: -450px;
    }
    .me{
-    right: -790px;
+    right: -1000px;
    }
    .chains{
     right: -450px;
@@ -1095,8 +1095,11 @@ nav a{
      position: absolute;
      right: -400px;
     }
-   .gg {
-     right: -350px;
+   .br{
+     position: absolute;
+     right: 550px;
+     top: 0.1px;
+     
     }
 }   
 
