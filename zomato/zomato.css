@@ -907,6 +907,8 @@ nav a{
     text-decoration: none;
     font-size: 15px;
     color: rgb(130, 130, 130);
+    margin-left: -40px;
+    
 }
 
 .se{
