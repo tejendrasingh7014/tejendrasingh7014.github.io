@@ -5,6 +5,7 @@ body{
     flex-wrap: wrap;
     font-family: Okra,Helvetica,sans-serif;
      
+     
 }
 
 
@@ -476,6 +477,7 @@ nav a{
     color: rgb(130, 130, 130);
     font-weight: lighter;
     text-decoration: none;
+    
 }
 
 .chains{
@@ -899,7 +901,7 @@ nav a{
 }
 
 .gg{
-    left: 135px;
+    left: 130px;
     position: absolute;
     margin-top:3830px;
     text-decoration: none;
@@ -909,7 +911,7 @@ nav a{
 
 .se{
     position: absolute;
-    top: 334.6px;
+    top: 351.5px;
     margin-left: 897px;
     cursor: pointer;
 }
@@ -952,7 +954,7 @@ nav a{
 }
 
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
    .main {
        width: 1340px;
        
@@ -996,8 +998,8 @@ nav a{
    /*.hii{
        right: -700px;
        position: absolute;
-       top: 40px; remove from loca tag*/
-   }
+       top: 40px; remove from loca tag
+     */
    .mk{
        
        position: absolute;
@@ -1024,7 +1026,7 @@ nav a{
        right: -450px;
    }
    .near{
-       right: -770px;
+       right: -70px;
    }
    .res{
     right: -450px;
@@ -1046,57 +1048,57 @@ nav a{
        right: -495px;
    }
    .foo{
-    position: absolute;
-    right: -495px;
-   }
+     position: absolute;
+     right: -495px;
+    }
    .nts{
-    position: absolute;
-    right: -495px;
-   }
+     position: absolute;
+     right: -495px;
+    }
    .ou{
-    position: absolute;
-    right: -530px;
-   }
+     position: absolute;
+     right: -530px;
+    }
    .nks{
-    position: absolute;
-    right: -790px;
-   }
+     position: absolute;
+     right: -790px;
+    }
    .code a{
-       position: absolute;
-       right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .help a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .app a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .ad a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .list a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .bus a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .wid a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .pro a{
-    position: absolute;
-    right: -400px;
-   }
+     position: absolute;
+     right: -400px;
+    }
    .gg {
-    right: -350px;
-    
-   }
+     right: -350px;
+    }
+}   
 
 
 @media(max-width: 1024px){
