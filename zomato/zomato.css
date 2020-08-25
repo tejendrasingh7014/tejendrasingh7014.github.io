@@ -1174,7 +1174,7 @@ nav a{
  @media screen and (max-width: 600px) {
     .main{
         height: 400px;
-        
+        width: 470px
     }
     .go{
         position: relative;
@@ -1302,49 +1302,146 @@ nav a{
         margin-left:-318px;
               
     }
-    .a{
-        position: relative;
-        width: 10px;
+     .bu{
+        font-size: 8px;
+        width: 115px;
+        height: 30px;
+        
         
     }
+    .a{
+        
+       
+        margin-top: -480px;
+        margin-left: -140px;
+        
+     }
+     .b{
+      
+        margin-top: -480px;
+        margin-left: -415px;
+       
+     }   
+     .c{
+       
+        margin-top: -480px;
+        margin-left: -690px;
+      
+     }
+     .d{
+      
+        margin-top: -415px;
+        margin-left: -140px;
+      
+     }
+     .e{
+       
+        margin-top: -415px;
+        margin-left: -415px;
+      
+     }
+     
+     .f{
+      
+        margin-top: -415px;
+        margin-left: -690px;
+     
+     }
+     .g{
+        
+        margin-top: -350px;
+        margin-left: -140px;
+     
+     }
+     
+     .h{
+       
+        margin-top: -350px;
+        margin-left: -415px;
+      
+     }
+     .i{
+       
+        margin-top: -350px;
+        margin-left: -690px;
+       
+     }
+     .j{
+        width: 115px;
+        height: 30px;
+        margin-top: -285px;
+        margin-left: -140px;
+      
+     }
+     .k{
+       
+        margin-top: -285px;
+        margin-left: -415px;
+       
+     }
+     .l{
+       
+        margin-top: -285px;
+        margin-left: -690px;
+      
+     }
+     .m{
+      
+        margin-top: -220px;
+        margin-left: -140px;
+      
+     }
+     .n{
+       
+        margin-top: -220px;
+        margin-left: -415px;
+      
+     }
+     .o{
+      
+        margin-top: -220px;
+        margin-left: -690px;
+     
+     }
+     .col img{
+          height: 220px;
+        width: 160px;
+          margin-top: -100px;
+        margin-left: -230px;
+     }
+     .mk{
+          top: -80px;
+          margin-left: -360px;
+          font-size: 16px;
+          position: relative;
+     }
+     
+     .ak{
+          top: -60px;
+          margin-left: -175px;
+          font-size: 7px;
+          position: relative;
+         
+     }
+     .bk{
+          top: -30px;
+          margin-left: -220px;
+          font-size: 10px;
+          position: relative;
+     }
+     .play{
+        top: -100px;
+        margin-left: -330px;
+        width: 70px;
+        height: 60px;
+     }
+     .col::before{
+         height: 280px;
+         margin-top: -500px;
+         left: 0px; 
+         width: 470px
+     }
+
+    
+    
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
