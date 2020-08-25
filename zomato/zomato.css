@@ -956,189 +956,55 @@ nav a{
 }
 
 
-@media (max-width: 500px) {
-   .main {
-       width: 1340px;
-       
-   }
-   .singup {
-       position: absolute;
-       left: 40px;
-       top: -55px;
-   }
-   .login {
-       position: absolute;
-       top: -55px;
-   }
-   .best{
-       font-size: 30px;
-       position: absolute;
-       right: -750px;
-   }
-   .zomato{
-       left: 485px;
-       position: absolute;
-   }
-   .text{
-       position: absolute;
-       left: 325px;
-   }
-   .se{
-       position: absolute;
-       left: -28px;
-       top: 366.5px;
-   }
-   .tag{
-       position: absolute;
-       right: -475px;
-       font-size: 17px;
-   }
-   .loca{
-       position: absolute;
-       right: -700px;
-   }
-   /*.hii{
-       right: -700px;
-       position: absolute;
-       top: 40px; remove from loca tag
-     */
-   .mk{
-       
-       position: absolute;
-       right: -920px;
-   }
-   .ak{
-       position: absolute;
-       right: -900px;
-       font-size: 17px;
-   }
-   .bk{
-       position: absolute;
-       right: -460px;
-   }
-   .col::before{
-       left: 0px;
-       position: absolute;
-
-   }
-   .explore{
-       right: -450px;
-   }
-   .popular{
-       right: -450px;
-   }
-   .near{
-       right: -1000px;
-   }
-   .res{
-    right: -450px;
-   }
-   .me{
-    right: -1000px;
-   }
-   .chains{
-    right: -450px;
-   }
-   .bi a{
-       right: -790px;
-   }
-   .del{
-       right: -450px;
-   }
-   .bo a{
-       position: absolute;
-       right: -495px;
-   }
-   .foo{
-     position: absolute;
-     right: -495px;
-    }
-   .nts{
-     position: absolute;
-     right: -495px;
-    }
-   .ou{
-     position: absolute;
-     right: -530px;
-    }
-   .nks{
-     position: absolute;
-     right: -790px;
-    }
-   .code a{
-     position: absolute;
-     right: -400px;
-    }
-   .help a{
-     position: absolute;
-     right: -400px;
-    }
-   .app a{
-     position: absolute;
-     right: -400px;
-    }
-   .ad a{
-     position: absolute;
-     right: -400px;
-    }
-   .list a{
-     position: absolute;
-     right: -400px;
-    }
-   .bus a{
-     position: absolute;
-     right: -400px;
-    }
-   .wid a{
-     position: absolute;
-     right: -400px;
-    }
-   .pro a{
-     position: absolute;
-     right: -400px;
-    }
-  
-}   
-
-
-@media(max-width: 1024px){
-    .se{
-        top: 351.5px;
-        position: absolute;
-       
-    }
-    .main{
+/*@media screen and (max-width: 600px) {
+    .main {
         width: 1340px;
-    }
-    .best{
-        left: 300px;
-        top: 280px;
-    }
-    .login {
-        bottom: -15px;
-        position: absolute;
-        right: 20px;
-    }
-    .singup {
-        bottom: -15px;
-        position: absolute;
-        right: -50px;
-    }
-    .go{
-        top: 25px;
-        position: absolute;
+        display: block;
         
     }
-    .text {
+    .singup {
         position: absolute;
-        top: 350px;
-        height: 45px;
+        left: 40px;
+        top: -55px;
+    }
+    .login {
+        position: absolute;
+        top: -55px;
+    }
+    .best{
+        font-size: 30px;
+        position: absolute;
+        right: -750px;
     }
     .zomato{
-        top: 160px;
+        left: 485px;
+        position: absolute;
     }
+    .text{
+        position: absolute;
+        left: 325px;
+    }
+    .se{
+        position: absolute;
+        left: -28px;
+        top: 368.5px;
+    }
+    .tag{
+        position: absolute;
+        right: -475px;
+        font-size: 17px;
+    }
+    .loca{
+        position: absolute;
+        right: -700px;
+    }
+    /*.hii{
+        right: -700px;
+        position: absolute;
+        top: 40px; remove from loca tag
+      *
     .mk{
-       
+        
         position: absolute;
         right: -920px;
     }
@@ -1152,22 +1018,297 @@ nav a{
         right: -460px;
     }
     .col::before{
-        right: -328px;
+        left: 0px;
+        position: absolute;
+ 
+    }
+    .explore{
+        right: -450px;
+    }
+    .popular{
+        right: -450px;
+    }
+    .near{
+        right: -1000px;
+    }
+    .res{
+     right: -450px;
+    }
+    .me{
+     right: -1000px;
+    }
+    .chains{
+     right: -450px;
     }
     .bi a{
         right: -790px;
     }
-    .nks{
-        position: absolute;
-        right: -790px;
+    .del{
+        right: -450px;
     }
-    .gg{
+    .bo a{
         position: absolute;
-        right: -790px;
+        right: -495px;
+    }
+    .foo{
+      position: absolute;
+      right: -495px;
+     }
+    .nts{
+      position: absolute;
+      right: -495px;
+     }
+    .ou{
+      position: absolute;
+      right: -530px;
+     }
+    .nks{
+      position: absolute;
+      right: -790px;
+     }
+    .code a{
+      position: absolute;
+      right: -400px;
+     }
+    .help a{
+      position: absolute;
+      right: -400px;
+     }
+    .app a{
+      position: absolute;
+      right: -400px;
+     }
+    .ad a{
+      position: absolute;
+      right: -400px;
+     }
+    .list a{
+      position: absolute;
+      right: -400px;
+     }
+    .bus a{
+      position: absolute;
+      right: -400px;
+     }
+    .wid a{
+      position: absolute;
+      right: -400px;
+     }
+    .pro a{
+      position: absolute;
+      right: -400px;
+     }
+     
+   
+ }   */
+ 
+ 
+ /*@media(max-width: 1024px){
+     .se{
+         top: 351.5px;
+         position: absolute;
+        
+     }
+     .main{
+         width: 1340px;
+     }
+     .best{
+         left: 300px;
+         top: 280px;
+     }
+     .login {
+         bottom: -15px;
+         position: absolute;
+         right: 20px;
+     }
+     .singup {
+         bottom: -15px;
+         position: absolute;
+         right: -50px;
+     }
+     .go{
+         top: 25px;
+         position: absolute;
+         
+     }
+     .text {
+         position: absolute;
+         top: 350px;
+         height: 45px;
+     }
+     .zomato{
+         top: 160px;
+     }
+     .mk{
+        
+         position: absolute;
+         right: -920px;
+     }
+     .ak{
+         position: absolute;
+         right: -900px;
+         font-size: 17px;
+     }
+     .bk{
+         position: absolute;
+         right: -460px;
+     }
+     .col::before{
+         right: -328px;
+     }
+     .bi a{
+         right: -790px;
+     }
+     .nks{
+         position: absolute;
+         right: -790px;
+     }
+     .gg{
+         position: absolute;
+         right: -790px;
+     }
+     
+ }*/
+
+
+ @media screen and (max-width: 600px) {
+    .main{
+        height: 400px;
+        
+    }
+    .go{
+        position: relative;
+        bottom: 390px;
+        right: 90px;
+        font-size: 10px;
+    }
+     .singup {
+       position: relative;
+       font-size: 10px; 
+       color: white;
+       right: 850px;
+        bottom: 129px
+            }
+    .login{
+       position: relative;
+       font-size: 10px; 
+       color: white;
+       right: 800px;
+       bottom: 110px;
     }
     
+    .best{
+        font-size: 13px;
+        position: relative;
+        left: 40px;
+        bottom: 280px;
+        
+    }
+    
+    .zomato{
+        font-size: 45px;
+        position: relative;
+        left: 100px;
+        bottom: 300px;
+        
+    }
+    .text{
+        position: relative;
+        border: 1px;
+        width: 260px;
+        left: 48px;
+        height: 30px;
+        bottom:260px; 
+        font-size: 9px;
+    }
+    .se{
+        position: absolute;
+        right:61px;
+        top:229px;
+        height: 25px;
+        width: 25px
+        
+    }
+    .flood img{
+        height: 120px;
+        width: 160px;
+       
+    }
+    .first{
+        font-size: 13px;
+        margin-top: -200px;
+        margin-left: -80px
+    }
+    .second{
+         font-size: 13px;
+        margin-top: -200px;
+        margin-left: -200px
+    }
+    .thrid{
+        font-size: 13px;
+        margin-top: -30px;
+        margin-left: -662px;
+    }
+    .forth{
+          font-size: 13px;
+        margin-top: -30px;
+        margin-left: -782px;
+    }
+    .name{
+        font-size:25px;
+        position: relative;
+        bottom: 140px;
+        right: 80px;
+    }
+    .tag{
+        font-size: 8px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 90px;
+            
+    }
+    .floor img{
+         height: 155px;
+        width: 160px;
+    }
+    .one{
+        font-size: 13px;
+        position: relative;
+        bottom:115px;
+         margin-left: 12px
+    }
+    .two{
+          font-size: 13px;
+        position: relative;
+        bottom:324px;
+        margin-left: 182px
+    }
+    .three{
+          font-size: 13px;
+        position: relative;
+        bottom:360px;
+        margin-left: 12px
+    }
+    .four{
+         font-size: 13px;
+        position: relative;
+        bottom:570px;
+        margin-left: 182px
+    }
+    .loca{
+        font-size:15px;
+        bottom: 1400px;
+        position: relative;
+        margin-left:-318px;
+              
+    }
+    .a{
+        position: relative;
+        width: 10px;
+        
+    }
 }
-
+  
 
 
 
