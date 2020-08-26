@@ -11,7 +11,7 @@ body{
 
 
 nav{
-   position:absolute;
+   /*! position:absolute; */
    bottom: 580px;
    left: 1090px;
 }
@@ -1207,7 +1207,7 @@ nav a{
     
     .zomato{
         font-size: 45px;
-        position: relative;
+        position: inherit;
         left: 100px;
         bottom: 300px;
         
