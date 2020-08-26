@@ -1593,32 +1593,32 @@ nav a{
      }
      .nts{
           top:-300px;
-          margin-left: -370px;
+          left: 190px;
          font-size: 10px
      }
      .ad a{
          top:-310px;
-          margin-left: -370px;
+         left: 190px;
           font-size: 9px;
      }
      .list a{
           top:-320px;
-          margin-left: -370px;
+          left: 190px;
           font-size: 9px;
      }
      .bus a{
           top:-330px;
-          margin-left: -370px;
+          left: 190px;
           font-size: 9px;
      }
      .wid a{
           top:-340px;
-          margin-left: -370px;
+          left: 190px;
           font-size: 9px;
      }
      .pro a{
           top:-350px;
-          margin-left: -370px;
+          left: 190px;
           font-size: 9px;
      }
      .ou{
@@ -1699,7 +1699,10 @@ nav a{
                top:-190px;
           margin-left: -80px; 
      }
-     
+     .sit a::before{
+        left: -1px;
+    width: 460px;
+     }
      
      
      
