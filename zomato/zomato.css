@@ -1183,18 +1183,18 @@ nav a{
         font-size: 10px;
     }
      .singup {
-       position: relative;
-       font-size: 10px; 
-       color: white;
-       right: 850px;
-        bottom: 129px
+        position: relative;
+        font-size: 10px;
+        color: white;
+        left: -753px;
+        bottom: 31px;
             }
     .login{
-       position: relative;
-       font-size: 10px; 
-       color: white;
-       right: 800px;
-       bottom: 110px;
+        position: relative;
+        font-size: 10px;
+        color: white;
+        left: -700px;
+        bottom: 14px;
     }
     
     .best{
@@ -1411,26 +1411,28 @@ nav a{
      }
      .mk{
         top: 70px;
-        left: 252px;
+        left: 238px;
         font-size: 12px;
      }
      
      .ak{
-          top: -60px;
-          margin-left: -175px;
-          font-size: 7px;
-          position: relative;
+        top: -60px;
+        
+        font-size: 7px;
+        position: relative;
+        
+        left: 239px;
          
      }
      .bk{
-          top: -30px;
-          margin-left: -220px;
-          font-size: 10px;
-          position: relative;
+        top: -30px;
+        left: 62px;
+        font-size: 10px;
+        position: relative;
     }
      .play{
-        top: -100px;
-        margin-left: -330px;
+        top: -128px;
+        left: 280px;
         width: 70px;
         height: 60px;
     }
@@ -1481,19 +1483,19 @@ nav a{
      }
      .blu{
          margin-top: 800px;
-          margin-left: -285px; 
+         left: 72px;
      }
      .bt{
-          margin-top: 800px;
-          margin-left: -430px; 
+        margin-top: 800px;
+        left: 138px;
      }
      .bur{
-           margin-top: 800px;
-          margin-left: -560px; 
+        margin-top: 800px;
+        left: 208px;
      }
      .ger{
-          margin-top: 800px;
-          margin-left: -695px; 
+        margin-top: 800px;
+        left: 295px;
      }
      .del{
           font-size: 15px;
@@ -1506,22 +1508,22 @@ nav a{
      }
      .ko{
           margin-top: 990px;
-          margin-left: -280px;
+          left: 80px;
      }
      .mum{
          margin-top: 990px;
-          margin-left: -430px;
+         left: 144px;
      }
      .ru{
            margin-top: 990px;
-         margin-left: -570px; 
+           left: 202px;
      }
      .bo a{
          font-size: 8px
      }
      .pu{
           margin-top: 990px;
-         margin-left: -735px; 
+          left: 258px;
      }
      .mato{
           font-size: 20px;
@@ -1621,32 +1623,32 @@ nav a{
      }
      .ou{
           top:-190px;
-          margin-left: -800px;
+          left: 10px;
          font-size: 10px
      }
      .vacy a{
           top: -200px;
-          margin-left: -800px;
+          left: 10px;
           font-size: 9px;
      }
      .ms a{
            top: -210px;
-          margin-left: -800px;
+           left: 10px;
           font-size: 9px;
      }
      .sec a{
            top: -205px;
-          margin-left: -800px;
+           left: 10px;
           font-size: 9px;
      }
      .sit a{
            top: -245px;
-          margin-left: -800px;
+           left: 10px;
           font-size: 9px;
      }
      .nks{
           top:-190px;
-          margin-left: -850px;
+          left: 130px;
          font-size: 10px
              
      }
@@ -1690,7 +1692,7 @@ nav a{
           width: 70px;
         height: 60px;
             top:-190px;
-          margin-left: -800px;
+            left: 129px;
      }
      .gg{
          font-size: 5px;
