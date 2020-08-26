@@ -1242,17 +1242,17 @@ nav a{
     .second{
          font-size: 13px;
         margin-top: -200px;
-        margin-left: -200px
+        left: 100px;
     }
     .thrid{
         font-size: 13px;
         margin-top: -30px;
-        margin-left: -662px;
+        left: -70px;
     }
     .forth{
           font-size: 13px;
         margin-top: -30px;
-        margin-left: -782px;
+        left: 100px;
     }
     .name{
         font-size:25px;
@@ -1319,13 +1319,13 @@ nav a{
      .b{
       
         margin-top: -480px;
-        margin-left: -415px;
+        left: 135px;
        
      }   
      .c{
        
         margin-top: -480px;
-        margin-left: -690px;
+        left: 260px;
       
      }
      .d{
@@ -1337,14 +1337,14 @@ nav a{
      .e{
        
         margin-top: -415px;
-        margin-left: -415px;
+        left: 135px;
       
      }
      
      .f{
       
         margin-top: -415px;
-        margin-left: -690px;
+        left: 260px;
      
      }
      .g{
@@ -1357,13 +1357,13 @@ nav a{
      .h{
        
         margin-top: -350px;
-        margin-left: -415px;
+        left: 135px;
       
      }
      .i{
        
         margin-top: -350px;
-        margin-left: -690px;
+        left: 260px;
        
      }
      .j{
@@ -1376,13 +1376,13 @@ nav a{
      .k{
        
         margin-top: -285px;
-        margin-left: -415px;
+        left: 135px;
        
      }
      .l{
        
         margin-top: -285px;
-        margin-left: -690px;
+        left: 260px;
       
      }
      .m{
@@ -1394,13 +1394,13 @@ nav a{
      .n{
        
         margin-top: -220px;
-        margin-left: -415px;
+        left: 135px;
       
      }
      .o{
       
         margin-top: -220px;
-        margin-left: -690px;
+        left: 260px;
      
      }
      .col img{
@@ -1410,10 +1410,9 @@ nav a{
         margin-left: -230px;
      }
      .mk{
-          top: -80px;
-          margin-left: -360px;
-          font-size: 16px;
-          position: relative;
+        top: 70px;
+        left: 252px;
+        font-size: 12px;
      }
      
      .ak{
@@ -1428,20 +1427,278 @@ nav a{
           margin-left: -220px;
           font-size: 10px;
           position: relative;
-     }
+    }
      .play{
         top: -100px;
         margin-left: -330px;
         width: 70px;
         height: 60px;
-     }
+    }
      .col::before{
-         height: 280px;
-         margin-top: -500px;
-         left: 0px; 
-         width: 470px
+        height: 280px;
+        margin-top: -500px;
+        left: 0px; 
+        width: 470px
+    }
+     .explore{
+         font-size: 17px;
+         top: -120px;
+         margin-left: -130px
      }
-
-    
-    
+     .popular{
+           font-size: 15px;
+         top: -140px;
+           margin-left: -120px;   
+     }
+     .near{
+         font-size: 13px;
+         margin-left: -145px;
+         top: -160px
+     }
+     .res{
+           font-size: 15px;
+         top: -120px;
+           margin-left: -120px;
+     }
+     .me{
+          font-size: 13px;
+         margin-left: -145px;
+         top: -140px
+     }
+     .chains{
+            font-size: 15px;
+         top: -100px;
+           margin-left: -120px;
+     }
+     .bi{
+         font-size: 8px;
+             
+     }
+     .bik{
+          margin-top: 800px;
+          margin-left: -140px;
+                  
+     }
+     .blu{
+         margin-top: 800px;
+          margin-left: -285px; 
+     }
+     .bt{
+          margin-top: 800px;
+          margin-left: -430px; 
+     }
+     .bur{
+           margin-top: 800px;
+          margin-left: -560px; 
+     }
+     .ger{
+          margin-top: 800px;
+          margin-left: -695px; 
+     }
+     .del{
+          font-size: 15px;
+         top: -170px;
+           margin-left: -120px;
+     }
+     .cr{
+           margin-top: 990px;
+          margin-left: -140px;
+     }
+     .ko{
+          margin-top: 990px;
+          margin-left: -280px;
+     }
+     .mum{
+         margin-top: 990px;
+          margin-left: -430px;
+     }
+     .ru{
+           margin-top: 990px;
+         margin-left: -570px; 
+     }
+     .bo a{
+         font-size: 8px
+     }
+     .pu{
+          margin-top: 990px;
+         margin-left: -735px; 
+     }
+     .mato{
+          font-size: 20px;
+         top: -240px;
+           margin-left: -120px;
+     }
+     .company{
+         top:-300px;
+          margin-left: -140px;
+         font-size: 10px
+     }
+     .out a {
+          top:-310px;
+          margin-left: -140px;
+          font-size: 9px
+                  
+     }
+     .og a{
+         top:-320px;
+          margin-left: -140px;
+          font-size: 9px;
+     }
+     .car a{
+          top:-330px;
+          margin-left: -140px;
+          font-size: 9px;
+     }
+     .ort a{
+          top:-340px;
+          margin-left: -140px;
+          font-size: 9px;
+     }
+     .act a{
+           top:-350px;
+          margin-left: -140px;
+          font-size: 9px;
+     }
+     .foo{
+          top:-300px;
+          margin-left: -260px;
+         font-size: 10px
+     }
+     .code a{
+          top:-310px;
+          margin-left: -262px;
+          font-size: 9px;
+     }
+     .ity a{
+          top:-320px;
+          margin-left: -262px;
+          font-size: 9px;
+     }
+     .help a{
+         top:-330px;
+          margin-left: -262px;
+          font-size: 9px;
+     }
+     .per a{
+          top:-340px;
+          margin-left: -262px;
+          font-size: 9px;
+     }
+     .app a{
+          top:-350px;
+          margin-left: -262px;
+          font-size: 9px;
+     }
+     .nts{
+          top:-300px;
+          margin-left: -370px;
+         font-size: 10px
+     }
+     .ad a{
+         top:-310px;
+          margin-left: -370px;
+          font-size: 9px;
+     }
+     .list a{
+          top:-320px;
+          margin-left: -370px;
+          font-size: 9px;
+     }
+     .bus a{
+          top:-330px;
+          margin-left: -370px;
+          font-size: 9px;
+     }
+     .wid a{
+          top:-340px;
+          margin-left: -370px;
+          font-size: 9px;
+     }
+     .pro a{
+          top:-350px;
+          margin-left: -370px;
+          font-size: 9px;
+     }
+     .ou{
+          top:-190px;
+          margin-left: -800px;
+         font-size: 10px
+     }
+     .vacy a{
+          top: -200px;
+          margin-left: -800px;
+          font-size: 9px;
+     }
+     .ms a{
+           top: -210px;
+          margin-left: -800px;
+          font-size: 9px;
+     }
+     .sec a{
+           top: -205px;
+          margin-left: -800px;
+          font-size: 9px;
+     }
+     .sit a{
+           top: -245px;
+          margin-left: -800px;
+          font-size: 9px;
+     }
+     .nks{
+          top:-190px;
+          margin-left: -850px;
+         font-size: 10px
+             
+     }
+     .kk{
+          top:-80px;
+          margin-left: -800px;
+         
+     }
+     .india{
+         width: 30px;
+         height:20px; 
+         top: -1px;
+         
+     }
+     .ind {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+         margin-left: -10px;
+         padding-left:  40px
+                                      
+               
+     }
+     .ii{
+            top:-80px;
+          margin-left: -865px;
+     }
+     .world{
+          width: 30px;
+         height:20px; 
+         top: -1px;
+     }
+     .wor{
+          width: 80px;
+        height: 20px;
+        font-size: 10px;
+         margin-left: -10px;
+         padding-left:  40px
+     }
+     .ios{
+          width: 70px;
+        height: 60px;
+            top:-190px;
+          margin-left: -800px;
+     }
+     .gg{
+         font-size: 5px;
+               top:-190px;
+          margin-left: -80px; 
+     }
+     
+     
+     
+     
 }
