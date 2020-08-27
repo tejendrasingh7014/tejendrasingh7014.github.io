@@ -1174,7 +1174,7 @@ nav a{
  @media screen and (max-width: 600px) {
     .main{
         height: 400px;
-        width: 430px
+        width: 410px
     }
     .go{
         position: relative;
@@ -1237,12 +1237,12 @@ nav a{
     .first{
         font-size: 13px;
         margin-top: -200px;
-        margin-left: -80px
+        left: -70px
     }
     .second{
          font-size: 13px;
         margin-top: -200px;
-        left: 100px;
+        left: 110px;
     }
     .thrid{
         font-size: 13px;
@@ -1252,7 +1252,7 @@ nav a{
     .forth{
           font-size: 13px;
         margin-top: -30px;
-        left: 100px;
+        left: 110px;
     }
     .name{
         font-size:25px;
@@ -1440,7 +1440,7 @@ nav a{
         height: 280px;
         margin-top: -500px;
         left: 0px; 
-        width: 430px
+        width: 410px
     }
      .explore{
          font-size: 17px;
@@ -1701,7 +1701,7 @@ nav a{
      }
      .sit a::before{
      left: -310px;
-    width: 430px;
+    width: 410px;
      top: -120px
      }
      .sec a::before{
