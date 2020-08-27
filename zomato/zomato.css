@@ -142,7 +142,7 @@ nav a{
 }
 
 .floor{
-    padding-right: 60px;
+    padding-right: 20px;
     font-size: 25px;
    
 }
@@ -1174,7 +1174,7 @@ nav a{
  @media screen and (max-width: 600px) {
     .main{
         height: 400px;
-        width: 410px
+        width: 380px;
     }
     .go{
         position: relative;
@@ -1193,7 +1193,7 @@ nav a{
         position: relative;
         font-size: 10px;
         color: white;
-        left: 344px;
+        left: 332px;
         bottom: 371px;
     }
     
@@ -1205,10 +1205,12 @@ nav a{
     }
     
     .zomato{
-        font-size: 45px;
-        position: inherit;
-        left: 100px;
-        bottom: 300px;
+    font-size: 45px;
+    position: relative;
+    left: 1px;
+    bottom: 300px;
+    color: white;
+    padding-left: 100px;
         
     }
     .text{
@@ -1420,7 +1422,7 @@ nav a{
         font-size: 7px;
         position: relative;
         
-        left: 190px;
+        left: 171px;
          
      }
      .bk{
@@ -1439,7 +1441,7 @@ nav a{
         height: 280px;
         margin-top: -500px;
         left: 0px; 
-        width: 410px
+        width: 380px;
     }
      .explore{
          font-size: 17px;
@@ -1453,7 +1455,7 @@ nav a{
      }
      .near{
          font-size: 13px;
-         margin-left: -145px;
+         left: 14px;
          top: -160px
      }
      .res{
@@ -1463,7 +1465,7 @@ nav a{
      }
      .me{
           font-size: 13px;
-         margin-left: -145px;
+          left: 14px;
          top: -140px
      }
      .chains{
@@ -1700,13 +1702,13 @@ nav a{
      }
      .sit a::before{
      left: -310px;
-    width: 410px;
+     width: 380px;
      top: -120px
      }
      .sec a::before{
          top: 200px;
-         width: 380px;
-             left: -600px
+         width: 340px;
+         right: 1px;
      }
      
      
