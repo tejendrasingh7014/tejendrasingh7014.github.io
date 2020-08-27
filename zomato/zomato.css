@@ -1199,8 +1199,8 @@ nav a{
     
     .best{
         font-size: 14px;
-       left: 34px;
-       bottom: 425px;
+        left: 34px;
+        bottom: 420px;
     
         
     }
@@ -1225,10 +1225,10 @@ nav a{
     }
     .se{
         position: absolute;
-        right:61px;
-        top: 231px;
+        right: 55px;
+        top: 232px;
         height: 25px;
-        width: 25px
+        width: 25px;
         
     }
     .flood img{
