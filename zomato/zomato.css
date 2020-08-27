@@ -1174,7 +1174,7 @@ nav a{
  @media screen and (max-width: 600px) {
     .main{
         height: 400px;
-        width: 470px
+        width: 430px
     }
     .go{
         position: relative;
@@ -1407,32 +1407,32 @@ nav a{
           height: 220px;
         width: 160px;
           margin-top: -100px;
-        margin-left: -230px;
+        left: 20px;
      }
      .mk{
         top: 70px;
-        left: 238px;
+        left: 190px;
         font-size: 12px;
      }
      
      .ak{
-        top: -60px;
+        top: -70px;
         
         font-size: 7px;
         position: relative;
         
-        left: 239px;
+        left: 190px;
          
      }
      .bk{
         top: -30px;
-        left: 62px;
+        left: 1px;
         font-size: 10px;
         position: relative;
     }
      .play{
         top: -128px;
-        left: 280px;
+        left: 229px;
         width: 70px;
         height: 60px;
     }
@@ -1440,7 +1440,7 @@ nav a{
         height: 280px;
         margin-top: -500px;
         left: 0px; 
-        width: 470px
+        width: 430px
     }
      .explore{
          font-size: 17px;
@@ -1622,28 +1622,28 @@ nav a{
           font-size: 9px;
      }
      .ou{
-          top:-190px;
-          left: 10px;
+        top:-300px;
+          left: 310px;
          font-size: 10px
      }
      .vacy a{
-          top: -200px;
-          left: 10px;
+        top:-310px;
+        left: 310px;
           font-size: 9px;
      }
      .ms a{
-           top: -210px;
-           left: 10px;
+        top:-320px;
+        left: 310px;
           font-size: 9px;
      }
      .sec a{
-           top: -205px;
-           left: 10px;
+        top:-330px;
+        left: 310px;
           font-size: 9px;
      }
      .sit a{
-           top: -245px;
-           left: 10px;
+        top:-340px;
+        left: 310px;
           font-size: 9px;
      }
      .nks{
@@ -1695,15 +1695,20 @@ nav a{
             left: 129px;
      }
      .gg{
-         font-size: 5px;
-               top:-190px;
-          margin-left: -80px; 
+         font-size: 8px;
+         top:-250px;
+          margin-left: -100px; 
      }
      .sit a::before{
-        left: -1px;
-    width: 460px;
+     left: -310px;
+    width: 430px;
+     top: -120px
      }
-     
+     .sec a::before{
+         top: 200px;
+         width: 380px;
+             left: -600px
+     }
      
      
 }
