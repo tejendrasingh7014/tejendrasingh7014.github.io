@@ -1186,22 +1186,21 @@ nav a{
         position: relative;
         font-size: 10px;
         color: white;
-        left: -753px;
-        bottom: 31px;
+        left: 230px;
+        bottom: 371px;
             }
     .login{
         position: relative;
         font-size: 10px;
         color: white;
-        left: -700px;
-        bottom: 14px;
+        left: 344px;
+        bottom: 371px;
     }
     
     .best{
-        font-size: 13px;
-       
-        left: 40px;
-        bottom: 280px;
+        font-size: 14px;
+       left: 34px;
+      bottom: 435px;
         
     }
     
@@ -1224,7 +1223,7 @@ nav a{
     .se{
         position: absolute;
         right:61px;
-        top:229px;
+        top: 231px;
         height: 25px;
         width: 25px
         
