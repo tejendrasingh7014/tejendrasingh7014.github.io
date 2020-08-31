@@ -318,7 +318,7 @@ h3{
     margin-top: 80px;
 }
 
-.l-zomato{
+ /*.l-zomato{
     margin-top: 100px;
     margin-bottom: 30px;
     font-size: 35px;
@@ -326,14 +326,14 @@ h3{
     display: flex;
     flex-wrap: wrap;
     font-weight: bolder;
-}
+}*/
 
-/*.l-zomato{
+.l-zomato{
     font-size: 40px;
     font-weight: bolder;
     position: relative;
     top: 90px;
-}*/
+}
 
 .head-tag{
     text-decoration: none;
@@ -408,7 +408,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     background: #29242405;
-    padding-top: 30px;
+    padding-top: 140px;
     
     
 }
