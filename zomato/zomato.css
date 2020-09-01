@@ -434,6 +434,167 @@ right: 160px;
 }
 
 
+/*@media (max-width: 600px){
+    .desktop{
+        height: 500px;
+        width: 272px;
+    }
+
+    .login{
+        font-size: 11px;
+        margin-left: 230px;
+       
+    }
+
+    .singup{
+        font-size: 11px; 
+        margin-left: 197px;
+        position: relative;
+        top: 10px;
+    }
+
+    .logo{
+        font-size: 10px;
+        position: relative;
+        left: 10px;
+    }
+
+    .zomato{
+        height: 50px;
+        width: 200px;
+    }
+
+    .discover{
+        font-size: 26px;
+    }
+
+    .text{
+        font-size: 10px;
+        position: relative;
+        width: 245px;
+        right: 52px;
+        
+    }
+
+    .search{
+        height: 25px;
+        width: 25px;
+        position: relative;
+        left: 126px;
+        top: -32px;
+    }
+
+    .img-section-1{
+        margin-left: -6px;
+    }
+    .round-border{
+       width: 242px;
+    }
+
+    .first{
+        font-size: 22px;
+    }
+
+    .second{
+        font-size: 22px;
+    }
+
+    .thrid{
+        font-size: 22px;
+    }
+
+    .forth{
+        font-size: 22px;
+    }
+
+    h1{
+        margin-left: 46px;
+    }
+
+    .tag{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}*/
+
+
+@media (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    .login{
+        font-size: 11px;
+        margin-left: 320px;
+       
+    }
+    .singup{
+        font-size: 11px; 
+        margin-left: 287px;
+        position: relative;
+        top: 10px;
+    }
+    .logo{
+        font-size: 10px;
+        position: relative;
+        left: 10px;
+    }
+    .discover{
+        font-size: 40px;
+    }
+
+    .text{
+        font-size: 12px;
+        position: relative;
+        width: 310px;
+        right: 40px;
+    }
+
+    .search{
+        height: 28px;
+        width: 30px;
+        position: relative;
+        left: 160px;
+        top: -36px;
+    }
+    .zomato{
+        height: 75px;
+        width: 285px;
+    
+    }
+    .img-section-1{
+        margin-left: 18px;
+    }
+    .tag{
+        margin-left: 100px;
+        position: relative;
+        left: -59px;
+        padding-left: 60px;
+    }
+    .img-section-2{
+        margin-left: 22px;
+    }
+    .popular-title{
+        font-size: 25px;
+    }
+    .place-button-tag{
+        margin-left: 15px;
+    }
+    .explore-tag{
+        margin-left: 60px;
+    }
+    h2{
+        margin-left: 38px;
+    }
+    h3{
+        margin-left: 40px;
+        padding-right: 38px;
+    }
+    .shop-tag{
+        padding-right: 19px;
+    }
+    
+}
+
 
     
 
