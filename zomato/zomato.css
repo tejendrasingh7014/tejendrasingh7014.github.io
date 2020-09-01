@@ -311,7 +311,7 @@ h3{
 
 .bi{
     margin-left:100px ;
-    padding-top: 20px;
+   
 }
 
 .cities-name{
@@ -553,7 +553,7 @@ right: 160px;
         height: 28px;
         width: 30px;
         position: relative;
-        left: 160px;
+        left: 150px;
         top: -36px;
     }
     .zomato{
@@ -592,7 +592,45 @@ right: 160px;
     .shop-tag{
         padding-right: 19px;
     }
-    
+
+    .bi a{
+        font-size: 10px;
+    }
+
+    .food-name-1{
+        margin-left: -90px;
+       
+    }
+
+    .food-name-2{
+        margin-left: -90px;
+    }
+    .food-name-3{
+        margin-left: -90px;
+    }
+
+    .food-name-4{
+        margin-left: -90px;
+    }
+
+    .food-name-5{
+        margin-left: -90px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .kfc {
+        margin-left: -68px;
+    }
+    .paradise-biryani{
+        margin-left: -110px;
+    }
+    .food-name-6{
+        margin-left: -90px;
+    }
+    .last-section-1{
+        margin-left: -90px;
+    }
+
 }
 
 
