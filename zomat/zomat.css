@@ -1,1716 +1,498 @@
-*{margin: 0; padding: 0; }
-
 body{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: Okra,Helvetica,sans-serif;
-     
-     
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.col-sm-12{
+	padding-right: 100px;
+	padding-left: 100px;	
+
+}
+
+.logo {
+	color:white;
+	font-size: 14px;
+	font-weight: 500;	
+}
+.header-link{
+	text-align: right;
+}
+.header-link a{
+	text-align: right;
+	color:white;
+	font-size: 1.8rem;
+	padding-left: 15px;
 }
 
 
 
-nav{
-   /*! position:absolute; */
-   bottom: 580px;
-   left: 1090px;
-}
 
-nav a{
+.header-background-contant{
+	background-image: url('img/home-background.webp');
+    position: relative;
+    background-size: cover;
+    background-position: center top 26%;
+    min-height: 460px;
     color: white;
-    text-decoration: none;
-    font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 150px;
+}
+
+.text-section{
+	text-align: center;
+	margin-top: 150px;
+}
+
+.img-logo img{
+	width: 320px;
+	margin-bottom: 10px;
+}
+
+
+.search-section{
+	color: black;
+    border: none;
     padding: 15px;
+    padding-left: 32px;
+    padding-right: 6px;
+    border-radius: 10px 0 0 10px;
+
+}
+.search-section:focus{
+	outline: none;
 }
 
-.go{
-    position: absolute;
-    margin-left: 120px;
-    bottom: 580px;
+input[type="Search"] {
+    padding: 16px;
+ 	width: 50%;
+    border: none;
+    margin-left: -4px;
+    color: black;
+    line-height: normal;
+}
+
+input[type="Search"]:focus {
+	outline: none;
+}
+
+i.fa.fa-map-marker.mapmarker-location {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    color: #d10909;
+}
+
+
+
+.order-selection {
+    margin-top: 30px;
+	padding: 0 125px;
+}
+
+.img-box {
+    border: 1px solid;
+    border-radius: 12px 12px 12px 12px;
+    padding: 0px;
+    overflow: hidden;
+    margin-right: 11px;
+    width: 24%;
+    text-align: center;
+}
+.img-box img {
+    width: 100%;
+}
+
+.img-box p{
+	font-size: 18px;
+	color: rgb(54, 54, 54);
+	padding: 9px 0 1px 0;
+	font-weight: 500;
+}
+
+.collection-more-link{
+	display: inline-flex;
+}
+
+.collections {
+    opacity: 1;
     color: white;
+    margin-right: 11px;
+    width: 24%;
+    border-radius: 10px;
+    padding: 0;
+    background-color: black;
+    z-index: 100;
+}
+
+
+.collections p{
+    font-size: 18px;
+    margin: 0;
+ }
+
+ .place-number {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.imgcollect-box{
+    padding-top: 222px;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-position: center;
+    padding-left: 10px;
+}
+
+
+.box-area-name{
+	padding-top: 60px;
+}
+.title-area {
+    text-align: center;
+}
+
+.title-area h2 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+
+.area-list {
+    padding: 0;
+    margin-top: 50px;
+}
+
+
+li.area-name {
+    list-style: none;
+    float: left;
+    width: 30.333333%;
+    margin-left: 22px;
+    padding: 21px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    border-radius: 6px;
+    border-color: rgb(232, 232, 232);
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 32px;
+	cursor: pointer;
+}
+
+
+li.area-name:hover {
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
+}
+
+li.area-name a {
+    color: black;
+    font-size: 18px;
+	text-decoration: none;
+}
+
+i.fa.fa-angle-right.area {
+	float: right;
+	padding-top: 5px;
+}
+
+
+.get-zomato-app-section{
+	background-color: #fffbf7;
+}
+
+.phone-img-box img {
+    width: 250px;
+    float: right;
+}
+
+img.store-buy {
+    width: 124px;
+    margin-top: 6px;
+    margin-bottom: 11px;
+}
+
+
+input.select-button {
+    margin: 11px 3px 1px 0;
+}
+
+
+.contact-link h2 {
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.contact-link p {
+	font-size: 18px;
+}
+
+.contact-link {
+    padding-right: 85px;
+}
+
+
+.label-name {
+    font-size: 18px;
+    padding-right: 44px;
+}
+
+
+.email-box {
+    color: rgb(28, 28, 28);
+    font-size: 18px;
+    border-style: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #dbd6d6;
+    width: 50%;
+}
+
+.link-button {
+    background: rgb(236, 70, 84);
+    border: none;
+    padding: 11px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0px black;
+}
+
+.radio-button {
+    padding-bottom: 15px;
+}
+
+form.contacct-link {
+    padding-bottom: 35px;
+}
+
+.phone-img-box {
+    padding-right: 50px;
+}
+
+.contact-link {
+    padding-right: 85px;
+    padding-left: 0;
+}
+
+
+.popular-list i.fa.fa-circle {
+    position: relative;
+    margin-right: 11px;
+    top: -3px;
+    font-size: 4px;
+    color: rgb(130, 130, 130);
+}
+
+.popular-list a {
+    color: rgb(130, 130, 130);
     text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+
+.content-section {
+    margin-top: 24px;
+}
+
+.content-section h3{
+	font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Popular-near-me h4{
+	font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.Popular-near-me {
+	margin-bottom: 100px;
+}
+
+
+.chines-list a {
+    padding-right: 100px;
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+    display: inline-flex;
+    padding-bottom: 14px;
+
+}
+
+
+.deliver-to a{
+	width: 284px;
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+    display: inline-flex;
+    padding-bottom: 14px;
+  }
+
+
+.company{
+	color: rgb(105, 105, 105);
+}
+ .company ul {
+	padding:0;
+}
+
+ .company ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 3px 0;
+    font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+.menu-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+	font-size:18px;
+	letter-spacing: 2px;
+}
+
+.social h6{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+
+.social-links-app i {
+    padding: 2px;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 19px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-image{
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+
+.col-sm-12.footer-section {
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+.col-sm-12.footer-last-section {
+    padding: 0;
+    padding-top: 15px;
+    border-top: 1px solid rgb(207, 207, 207);;
+	color: rgb(105, 105, 105);
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.dropdown-menu{
+    padding: 0;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding:12px 6px 12px 30px;
+    clear: both;
+    font-weight: 400;
+    color: black;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: white;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f8f8!important;
+}
+
+.dropdown {
+    float: right;
+}
+
+i.fa.fa-language {
+    padding-left: 3px;
+    padding-right: 4px;
+}
+
+i.fa.fa-sort-desc {
+    float: right;
     font-size: 17px;
 }
 
-.zomato{
-    font-size: 90px;
-    bottom: 360px;
-    left: 530px;
-    color:white;
-    position: absolute;
-}
-
-.best{
-    font-size: 35px;
-    bottom: 305px;
-    left: 310px;
-    color:white;
-    position: absolute;
-}
-
-.text{
-    border: 5px solid white;
-    border-radius: 8px ;
-    background-color: white;
-    bottom: 230px;
-    left: 350px;
-    position: absolute;
-    padding: 10px;
-    width: 600px;
-    cursor: text;
-    
-}
-
-.flood{
-    position: absolute;
-    padding-right: 60px;
-    font-size: 25px;
-    margin-top: 630px;
-    margin-left: 80px;
-    
-}
-
-.ro{
-    border-top-right-radius:10px;
-    border-top-left-radius: 10px;
-}
-
-.first{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:10px ;
-    border: 1px solid gainsboro;
-    left: 10px;
-    padding-bottom: 13px;
-    cursor: pointer;
-}
-
-.second{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:10px ;
-    border: 1px solid gainsboro;
-    left: 302px;
-    padding-bottom: 13px;
-    cursor: pointer;
-}
-
-.thrid{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:10px ;
-    border: 1px solid gainsboro;
-    left: 593px;
-    padding-bottom: 13px;
-    cursor: pointer;
-}
-
-.forth{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:10px ;
-    border: 1px solid gainsboro;
-    left: 884px;
-    padding-bottom: 13px;
-    cursor: pointer;
-    
-}
-
-.down{
-    margin-top: 940px;
-    position: absolute;
-}
-
-.name{
-    font-size: 38px;
-    margin-left: 100px;
-}
-
-.up{
-    margin-top: 410px; 
-}
-
-.tag{
-    margin-left: 100px;
-    font-size: 21px;
-    font-weight: 300;
-    color: rgb(54, 54, 54); 
-}
-
-.floor{
-    padding-right: 20px;
-    font-size: 25px;
-   
-}
-
-.round{
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.ld{
-    position: absolute;
-    left: 30px;
-    color: white;
-    bottom: 20px;
-    text-decoration: none;
-}
-
-.one{
-    border-radius: 8px;
-    position: absolute;
-    margin-left: 90px;
-    margin-top:50px ;
-}
-
-.two{
-    position: absolute;
-    margin-left: 382px;
-    margin-top:50px ;
-}
-
-.three{
-    position: absolute;
-    margin-left: 674px;
-    margin-top:50px ;
-}
-
-.four{
-    position: absolute;
-    margin-left: 966px;
-    margin-top:50px ;
-}
-
-.hig{
-    position: absolute;
-    margin-top:880px ;
-    font-size: 35px;
-    left: 360px;
-}
-
-/*.hii{
-    left: 500px;
-    margin-top:-40px ;
-    position: relative;
-    font-weight: bold;
-
-}*/
-
-.loca{
-    font-weight: 300;
-    color: rgb(54, 54, 54); 
-}
-
-.bu{
-    border: 1px solid gainsboro ; 
-    border-radius: 10px;
-    color: #000;
-    height: 50px;
-    width: 330px;
-    background-color: white;
-    font-size: 20px;
-    cursor: pointer;
-    
-     
-}
-
-.a{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 150px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:965px;
-}
-
-.b{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 550px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:965px;
-} 
-
-.c{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 950px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:965px;
-}
-
-.d{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 150px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1060px;
-}
-
-.e{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 550px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1060px;
-}
-
-.f{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 950px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1060px;
-}
-
-.g{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 150px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1155px;
-}
-
-.h{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 550px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1155px;
-}
-
-.i{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 950px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1155px;
-}
-
-.j{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 150px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1250px;
-}
-
-.k{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 550px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1250px;
-}
-
-.l{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 950px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1250px;
-}
-
-.m{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 150px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1345px;
-}
-
-.n{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 550px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1345px;
-}
-
-.o{
-    font-size: 10px;
-    border: 1px solid gainsboro ; 
-    border-radius: 10px; 
-    left: 950px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:1345px;
-    
-}
-
-.phone{
-    margin-top:1600px;
-    left: 300px;
-    position: absolute;
-    
-      
-}
-
-.mk{
-    margin-top:1620px;
-    position: absolute;
-    left: 610px;
-    font-size: 50px;
-   
-}
-
-.ak{
-    margin-top:1700px;
-    position: absolute;
-    left: 610px;
-    font-size: 19px;
-    font-weight: 300;
-    color: rgb(54, 54, 54); 
-   
-}
-
-.bk{
-    margin-top:1850px;
-    position: absolute;
-    left: 655px;
-    font-size: 19px;
-    color: gray;
-}
-
-.main{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.play{
-    width: 14.7rem;
-    height: 6rem;
-    cursor: pointer;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top:1900px;
-    position: absolute;
-    left: 610px;
-}
-
-
-.explore{
-    font-size: 31px;
-    margin-top:2150px;
-    position: absolute;
-    left: 150px;
-}
-
-.popular{
-    margin-top:2220px;
-    position: absolute;
-    left: 150px;
-    font-size: 25px;
-}
-
-.near{
-    margin-top:2270px;
-    position: absolute;
-    left: 150px;
-    font-size: 18px;
-    color: rgb(130, 130, 130);
-    font-weight: lighter;
-    text-decoration: none;
-    
-}
-
-
-.res{
-    margin-top:2430px;
-    position: absolute;
-    left: 150px;
-    font-size: 25px;
-}
-
-.me{
-    margin-top:2480px;
-    position: absolute;
-    left: 150px;
-    font-size: 18px;
-    color: rgb(130, 130, 130);
-    font-weight: lighter;
-    text-decoration: none;
-    
-}
-
-.chains{
-    margin-top:2640px;
-    position: absolute;
-    left: 150px;
-    font-size: 25px;
-}
-
-.bi{
-   
-    font-size: 18px;
-    
-    
-}
-
-.bik{
-    color: rgb(130, 130, 130);
-    left: 150px;
-    position: absolute;
-    margin-top:2700px;
-    text-decoration: none;
-
-}
-
-.blu{
-    color: rgb(130, 130, 130);
-    left: 350px;
-    position: absolute;
-    margin-top:2700px;
-    text-decoration: none;
-}
-
-.bt{
-    color: rgb(130, 130, 130);
-    left: 560px;
-    position: absolute;
-    margin-top:2700px;
-    text-decoration: none;
-}
-
-.bur{
-    color: rgb(130, 130, 130);
-    left: 760px;
-    position: absolute;
-    margin-top:2700px;
-    text-decoration: none;
-}
-
-.ger{
-    color: rgb(130, 130, 130);
-    left: 980px;
-    position: absolute;
-    margin-top:2700px;
-    text-decoration: none;
-}
-
-.del{
-    font-size:25px ;
-    left: 150px;
-    position: absolute;
-    margin-top:2900px;
-    text-decoration: none;
-}
-
-.cr{
-    color: rgb(130, 130, 130);
-    left: 150px;
-    position: absolute;
-    margin-top:2960px;
-    text-decoration: none;
-}
-
-.ko{
-    color: rgb(130, 130, 130);
-    left: 350px;
-    position: absolute;
-    margin-top:2960px;
-    text-decoration: none;
-}
-
-.mum{
-    color: rgb(130, 130, 130);
-    left: 560px;
-    position: absolute;
-    margin-top:2960px;
-    text-decoration: none;
-}
-
-.ru{
-    color: rgb(130, 130, 130);
-    left: 760px;
-    position: absolute;
-    margin-top:2960px;
-    text-decoration: none;
-}
-
-.pu{
-    color: rgb(130, 130, 130);
-    left: 980px;
-    position: absolute;
-    margin-top:2960px;
-    text-decoration: none;
-}
-
-.bo a{
-    color: #000;
-    font-size: 20px;
-    text-decoration: underline;
-    
-}
-
-.mato{
-    left: 150px;
-    position: absolute;
-    margin-top:3500px;
-    text-decoration: none;
-    font-size: 45px;
-}
-
-.company {
-    left: 150px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-    
-}
-
-.foo{
-    left: 350px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-}
-
-.nts{
-    left: 560px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-}
-
-.ou{
-    left: 810px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-}
-
-.nks{
-    left: 980px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-}
-
-.out a {
-    left: 150px;
-    position: absolute;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-    margin-top:3630px;
-
-}
-
-.og a{
-    left: 150px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.car a{
-    left: 150px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ort a{
-    left: 150px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.act a{
-    left: 150px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.code a{
-    left: 350px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ity a{
-    left: 350px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.help a{
-    left: 350px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.per a{
-    left: 350px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.app a{
-    left: 350px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ad a{
-    left: 560px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.list a{
-    left: 560px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.bus a{
-    left: 560px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-    
-}
-
-.wid a{
-    left: 560px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.pro a{
-    left: 560px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.vacy a{
-    left: 810px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ms a{
-    left: 810px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.sec a{
-    left: 810px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.sit a{
-    left: 810px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.india{
-    height: 3.0015rem;
-    transform: scale(0.488889);
-    margin-left: -1.2rem;
-    background-position: -141px 0px;
-    border: 1px solid  rgb(130, 130, 130); 
+.dropdown-toggle {
+    text-align: inherit;
+    border: 1px solid #6d6d6d;
+    padding: 8px 12px;
+    background-color: #f8f8f8;
     border-radius: 5px;
-    bottom: 0.5px;
-    width: 80px;
-    height: 40px;
-    margin-bottom: -40px;
-    margin-left: -9px;
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
-    
+    line-height: 22px;
+    margin: .25em;
+    width: auto;
+    min-width: 155px;
 }
 
-.kk{
-    left: 890px;
+.space {
     position: absolute;
-    margin-top:3510px;
-}
-.ind{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:5px ;
-    border: 1px solid gainsboro;
-    font-size: 20px;
-    cursor: pointer;
-    width: 135px;
-    height: 40px;
-    padding-left: 70px;
+    width: 21px;
+    transform: rotate(222deg);
+    border-radius: 2.2rem 0px 0.4rem;
+    background: rgb(255, 255, 255);
+    height: 20px;
+    left: 64px;
+    top: -10px;
 }
 
-.ii{
-    left: 1040px;
+.dropdown-menu.show {
     position: absolute;
-    margin-top:3510px;
+    will-change: transform;
+    top: 10px;
+    left: 0px;
+    transform: translate3d(4px, 36px, 0px);
 }
 
-.world{
-    height: 3.0015rem;
-    transform: scale(0.488889);
-    margin-left: -1.2rem;
-    background-position: -141px 0px;
-    border: 1px solid  rgb(130, 130, 130); 
-    border-radius: 5px;
-    bottom: 0.5px;
-    width: 80px;
-    height: 40px;
-    margin-bottom: -40px;
-    margin-left: -9px;
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
+.back-seting{
+	margin-top: 20px;
 }
 
-.wor{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:5px ;
-    border: 1px solid gainsboro;
-    font-size: 20px;
-    cursor: pointer;
-    width: 135px;
-    height: 40px;
-    padding-left: 70px;
+
+.header-submit-buton {
+    font-size: 16px;
+    background-color: rgb(237, 90, 107);
+    width: 50px;
+    height: 51px;
+    display: inline-flex;
+    padding: 17px;
+    margin-left: -4px;
+    border-radius: 0 12px 12px 0;
 }
 
-.ios{
-    width: 14.7rem;
-    height: 6rem;
-    cursor: pointer;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top:3650px;
-    position: absolute;
-    left: 925px;
+.header-submit-buton:hover {
+	background-color: rgb(236, 70, 84);
 }
 
-.gg{
-    left: 130px;
-    position: absolute;
-    margin-top:3830px;
+a.collection-link {
     text-decoration: none;
-    font-size: 15px;
-    color: rgb(130, 130, 130);
-    margin-left: -40px;
-    
+    color: rgb(236, 70, 84);
+    padding-top: 6px;
+    padding-left: 174px;
+    font-size: 17px;
 }
 
-.se{
-    position: absolute;
-    top: 351.5px;
-    margin-left: 897px;
-    cursor: pointer;
-}
-
-.sit a::before{
-    content: "";
-    position: absolute;
-    background: #29242405;
-    cursor: auto;
-    width: 10000px;
-    height: 400px;
-    top: -210px;
-    right: -480px;
-    z-index: -1
-    /*background - colour*/
-}
-
-.sec a::before{
-    content: "";
-    position: absolute;
-    margin: auto;
-    height: 2px;
-    background: gainsboro;
-    width: 1100px;
-    top: 120px;
-    right: -360px;
-    /*background - line*/
-}
-
-.col::before{
-    content: "";
-    position: absolute;
-    background: rgb(255, 251, 247);
-    width: 1350px;
-    height: 500px;
-    top: 2150px;
-    right: 0px;
-    z-index: -1;
-    /* phone-image background - colour   */
-}
-
-
-/*@media screen and (max-width: 600px) {
-    .main {
-        width: 1340px;
-        display: block;
-        
-    }
-    .singup {
-        position: absolute;
-        left: 40px;
-        top: -55px;
-    }
-    .login {
-        position: absolute;
-        top: -55px;
-    }
-    .best{
-        font-size: 30px;
-        position: absolute;
-        right: -750px;
-    }
-    .zomato{
-        left: 485px;
-        position: absolute;
-    }
-    .text{
-        position: absolute;
-        left: 325px;
-    }
-    .se{
-        position: absolute;
-        left: -28px;
-        top: 368.5px;
-    }
-    .tag{
-        position: absolute;
-        right: -475px;
-        font-size: 17px;
-    }
-    .loca{
-        position: absolute;
-        right: -700px;
-    }
-    /*.hii{
-        right: -700px;
-        position: absolute;
-        top: 40px; remove from loca tag
-      *
-    .mk{
-        
-        position: absolute;
-        right: -920px;
-    }
-    .ak{
-        position: absolute;
-        right: -900px;
-        font-size: 17px;
-    }
-    .bk{
-        position: absolute;
-        right: -460px;
-    }
-    .col::before{
-        left: 0px;
-        position: absolute;
- 
-    }
-    .explore{
-        right: -450px;
-    }
-    .popular{
-        right: -450px;
-    }
-    .near{
-        right: -1000px;
-    }
-    .res{
-     right: -450px;
-    }
-    .me{
-     right: -1000px;
-    }
-    .chains{
-     right: -450px;
-    }
-    .bi a{
-        right: -790px;
-    }
-    .del{
-        right: -450px;
-    }
-    .bo a{
-        position: absolute;
-        right: -495px;
-    }
-    .foo{
-      position: absolute;
-      right: -495px;
-     }
-    .nts{
-      position: absolute;
-      right: -495px;
-     }
-    .ou{
-      position: absolute;
-      right: -530px;
-     }
-    .nks{
-      position: absolute;
-      right: -790px;
-     }
-    .code a{
-      position: absolute;
-      right: -400px;
-     }
-    .help a{
-      position: absolute;
-      right: -400px;
-     }
-    .app a{
-      position: absolute;
-      right: -400px;
-     }
-    .ad a{
-      position: absolute;
-      right: -400px;
-     }
-    .list a{
-      position: absolute;
-      right: -400px;
-     }
-    .bus a{
-      position: absolute;
-      right: -400px;
-     }
-    .wid a{
-      position: absolute;
-      right: -400px;
-     }
-    .pro a{
-      position: absolute;
-      right: -400px;
-     }
-     
-   
- }   */
- 
- 
- /*@media(max-width: 1024px){
-     .se{
-         top: 351.5px;
-         position: absolute;
-        
-     }
-     .main{
-         width: 1340px;
-     }
-     .best{
-         left: 300px;
-         top: 280px;
-     }
-     .login {
-         bottom: -15px;
-         position: absolute;
-         right: 20px;
-     }
-     .singup {
-         bottom: -15px;
-         position: absolute;
-         right: -50px;
-     }
-     .go{
-         top: 25px;
-         position: absolute;
-         
-     }
-     .text {
-         position: absolute;
-         top: 350px;
-         height: 45px;
-     }
-     .zomato{
-         top: 160px;
-     }
-     .mk{
-        
-         position: absolute;
-         right: -920px;
-     }
-     .ak{
-         position: absolute;
-         right: -900px;
-         font-size: 17px;
-     }
-     .bk{
-         position: absolute;
-         right: -460px;
-     }
-     .col::before{
-         right: -328px;
-     }
-     .bi a{
-         right: -790px;
-     }
-     .nks{
-         position: absolute;
-         right: -790px;
-     }
-     .gg{
-         position: absolute;
-         right: -790px;
-     }
-     
- }*/
-
-
- @media screen and (max-width: 600px) {
-    .main{
-        height: 400px;
-        width: 390px;
-    }
-    .go{
-        position: relative;
-        bottom: 390px;
-        right: 90px;
-        font-size: 10px;
-    }
-     .singup {
-        position: relative;
-        font-size: 10px;
-        color: white;
-        left: 230px;
-        bottom: 371px;
-            }
-    .login{
-        position: relative;
-        font-size: 10px;
-        color: white;
-        left: 332px;
-        bottom: 371px;
-    }
-    
-    .best{
-        font-size: 14px;
-        left: 34px;
-        bottom: 420px;
-    
-        
-    }
-    
-    .zomato{
-    font-size: 45px;
+i.fa.fa-caret-right {
+    font-size: 18px;
     position: relative;
-    left: 1px;
-    bottom: 300px;
-    color: white;
-    padding-left: 100px;
-        
-    }
-    .text{
-        position: relative;
-        border: 1px;
-        width: 260px;
-        left: 48px;
-        height: 30px;
-        bottom:260px; 
-        font-size: 9px;
-    }
-    .se{
-        position: absolute;
-        right: 55px;
-        top: 232px;
-        height: 25px;
-        width: 25px;
-        
-    }
-    .flood img{
-        height: 120px;
-        width: 160px;
-       
-    }
-    .first{
-        font-size: 13px;
-        margin-top: -200px;
-        left: -70px
-    }
-    .second{
-         font-size: 13px;
-        margin-top: -200px;
-        left: 110px;
-    }
-    .thrid{
-        font-size: 13px;
-        margin-top: -30px;
-        left: -70px;
-    }
-    .forth{
-          font-size: 13px;
-        margin-top: -30px;
-        left: 110px;
-    }
-    .name{
-        font-size:25px;
-        position: relative;
-        bottom: 140px;
-        right: 80px;
-    }
-    .tag{
-        font-size: 8px;
-        margin-left: 20px;
-        position: relative;
-        bottom: 90px;
-            
-    }
-    .floor img{
-         height: 155px;
-        width: 160px;
-    }
-    .one{
-        font-size: 13px;
-        position: relative;
-        bottom:115px;
-         margin-left: 12px
-    }
-    .two{
-          font-size: 13px;
-        position: relative;
-        bottom:324px;
-        margin-left: 182px
-    }
-    .three{
-          font-size: 13px;
-        position: relative;
-        bottom:360px;
-        margin-left: 12px
-    }
-    .four{
-         font-size: 13px;
-        position: relative;
-        bottom:570px;
-        margin-left: 182px
-    }
-    .loca{
-        font-size:15px;
-        bottom: 1400px;
-        position: relative;
-        margin-left:-318px;
-              
-    }
-     .bu{
-        font-size: 8px;
-        width: 115px;
-        height: 30px;
-        
-        
-    }
-    .a{
-        
-       
-        margin-top: -480px;
-        margin-left: -140px;
-        
-     }
-     .b{
-      
-        margin-top: -480px;
-        left: 135px;
-       
-     }   
-     .c{
-       
-        margin-top: -480px;
-        left: 260px;
-      
-     }
-     .d{
-      
-        margin-top: -415px;
-        margin-left: -140px;
-      
-     }
-     .e{
-       
-        margin-top: -415px;
-        left: 135px;
-      
-     }
-     
-     .f{
-      
-        margin-top: -415px;
-        left: 260px;
-     
-     }
-     .g{
-        
-        margin-top: -350px;
-        margin-left: -140px;
-     
-     }
-     
-     .h{
-       
-        margin-top: -350px;
-        left: 135px;
-      
-     }
-     .i{
-       
-        margin-top: -350px;
-        left: 260px;
-       
-     }
-     .j{
-        width: 115px;
-        height: 30px;
-        margin-top: -285px;
-        margin-left: -140px;
-      
-     }
-     .k{
-       
-        margin-top: -285px;
-        left: 135px;
-       
-     }
-     .l{
-       
-        margin-top: -285px;
-        left: 260px;
-      
-     }
-     .m{
-      
-        margin-top: -220px;
-        margin-left: -140px;
-      
-     }
-     .n{
-       
-        margin-top: -220px;
-        left: 135px;
-      
-     }
-     .o{
-      
-        margin-top: -220px;
-        left: 260px;
-     
-     }
-     .col img{
-          height: 220px;
-        width: 160px;
-          margin-top: -100px;
-        left: 20px;
-     }
-     .mk{
-        top: 70px;
-        left: 190px;
-        font-size: 12px;
-     }
-     
-     .ak{
-        top: -70px;
-        
-        font-size: 7px;
-        position: relative;
-        
-        left: 171px;
-         
-     }
-     .bk{
-        top: -30px;
-        left: 1px;
-        font-size: 10px;
-        position: relative;
-    }
-     .play{
-        top: -128px;
-        left: 229px;
-        width: 70px;
-        height: 60px;
-    }
-     .col::before{
-        height: 280px;
-        margin-top: -500px;
-        left: 0px; 
-        width: 390px;
-    }
-     .explore{
-         font-size: 17px;
-         top: -120px;
-         margin-left: -130px
-     }
-     .popular{
-           font-size: 15px;
-         top: -140px;
-           margin-left: -120px;   
-     }
-     .near{
-         font-size: 13px;
-         left: 14px;
-         top: -160px
-     }
-     .res{
-           font-size: 15px;
-         top: -120px;
-           margin-left: -120px;
-     }
-     .me{
-          font-size: 13px;
-          left: 14px;
-         top: -140px
-     }
-     .chains{
-            font-size: 15px;
-         top: -100px;
-           margin-left: -120px;
-     }
-     .bi{
-         font-size: 8px;
-             
-     }
-     .bik{
-          margin-top: 800px;
-          margin-left: -140px;
-                  
-     }
-     .blu{
-         margin-top: 800px;
-         left: 72px;
-     }
-     .bt{
-        margin-top: 800px;
-        left: 138px;
-     }
-     .bur{
-        margin-top: 800px;
-        left: 208px;
-     }
-     .ger{
-        margin-top: 800px;
-        left: 295px;
-     }
-     .del{
-          font-size: 15px;
-         top: -170px;
-           margin-left: -120px;
-     }
-     .cr{
-           margin-top: 990px;
-          margin-left: -140px;
-     }
-     .ko{
-          margin-top: 990px;
-          left: 80px;
-     }
-     .mum{
-         margin-top: 990px;
-         left: 144px;
-     }
-     .ru{
-           margin-top: 990px;
-           left: 202px;
-     }
-     .bo a{
-         font-size: 8px
-     }
-     .pu{
-          margin-top: 990px;
-          left: 258px;
-     }
-     .mato{
-          font-size: 20px;
-         top: -240px;
-           margin-left: -120px;
-     }
-     .company{
-         top:-300px;
-          margin-left: -140px;
-         font-size: 10px
-     }
-     .out a {
-          top:-310px;
-          margin-left: -140px;
-          font-size: 9px
-                  
-     }
-     .og a{
-         top:-320px;
-          margin-left: -140px;
-          font-size: 9px;
-     }
-     .car a{
-          top:-330px;
-          margin-left: -140px;
-          font-size: 9px;
-     }
-     .ort a{
-          top:-340px;
-          margin-left: -140px;
-          font-size: 9px;
-     }
-     .act a{
-           top:-350px;
-          margin-left: -140px;
-          font-size: 9px;
-     }
-     .foo{
-          top:-300px;
-          margin-left: -260px;
-         font-size: 10px
-     }
-     .code a{
-          top:-310px;
-          margin-left: -262px;
-          font-size: 9px;
-     }
-     .ity a{
-          top:-320px;
-          margin-left: -262px;
-          font-size: 9px;
-     }
-     .help a{
-         top:-330px;
-          margin-left: -262px;
-          font-size: 9px;
-     }
-     .per a{
-          top:-340px;
-          margin-left: -262px;
-          font-size: 9px;
-     }
-     .app a{
-          top:-350px;
-          margin-left: -262px;
-          font-size: 9px;
-     }
-     .nts{
-          top:-300px;
-          left: 190px;
-         font-size: 10px
-     }
-     .ad a{
-         top:-310px;
-         left: 190px;
-          font-size: 9px;
-     }
-     .list a{
-          top:-320px;
-          left: 190px;
-          font-size: 9px;
-     }
-     .bus a{
-          top:-330px;
-          left: 190px;
-          font-size: 9px;
-     }
-     .wid a{
-          top:-340px;
-          left: 190px;
-          font-size: 9px;
-     }
-     .pro a{
-          top:-350px;
-          left: 190px;
-          font-size: 9px;
-     }
-     .ou{
-        top:-300px;
-          left: 310px;
-         font-size: 10px
-     }
-     .vacy a{
-        top:-310px;
-        left: 310px;
-          font-size: 9px;
-     }
-     .ms a{
-        top:-320px;
-        left: 310px;
-          font-size: 9px;
-     }
-     .sec a{
-        top:-330px;
-        left: 310px;
-          font-size: 9px;
-     }
-     .sit a{
-        top:-340px;
-        left: 310px;
-          font-size: 9px;
-     }
-     .nks{
-          top:-190px;
-          left: 130px;
-         font-size: 10px
-             
-     }
-     .kk{
-          top:-80px;
-          margin-left: -800px;
-         
-     }
-     .india{
-         width: 30px;
-         height:20px; 
-         top: -1px;
-         
-     }
-     .ind {
-        width: 80px;
-        height: 20px;
-        font-size: 10px;
-         margin-left: -10px;
-         padding-left:  40px
-                                      
-               
-     }
-     .ii{
-            top:-80px;
-          margin-left: -865px;
-     }
-     .world{
-          width: 30px;
-         height:20px; 
-         top: -1px;
-     }
-     .wor{
-          width: 80px;
-        height: 20px;
-        font-size: 10px;
-         margin-left: -10px;
-         padding-left:  40px
-     }
-     .ios{
-          width: 70px;
-        height: 60px;
-            top:-190px;
-            left: 129px;
-     }
-     .gg{
-         font-size: 8px;
-         top:-250px;
-          margin-left: -100px; 
-     }
-     .sit a::before{
-     left: -310px;
-     width: 390px;
-     top: -120px
-     }
-     .sec a::before{
-         top: 200px;
-         width: 340px;
-         right: -20px;
-     }
-     
-     
+    top: 3px;
+    left: 20px;
 }

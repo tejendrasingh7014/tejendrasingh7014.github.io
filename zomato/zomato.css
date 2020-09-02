@@ -93,6 +93,14 @@ nav{
     border-top-left-radius: 10px;
 }
 
+.move-left{
+    padding-left: 40px;
+}
+
+.move-left-more{
+    padding-left: 50px;
+}
+
 .first{
     border-color: rgb(232, 232, 232);
     border-image: initial;
@@ -273,7 +281,6 @@ h1{
 header{
     text-align: center;
 }
-
 .explore-tag{
     margin-top: 100px;
     margin-bottom: 40px;
