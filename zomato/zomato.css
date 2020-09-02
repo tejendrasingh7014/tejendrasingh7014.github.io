@@ -361,54 +361,54 @@ h3{
 }
 
  .india-img{
-    position: relative;
     height: 3.0015rem;
     transform: scale(0.488889);
     border-radius: 5px;
-    height: 40px;
-    top: 37px;
+    margin-bottom: 4px;
     z-index: 1;
-    right:  12px;
+    margin-left: -57px;
     cursor: pointer;
 }
 .india-button {
-    width: 120px;
-    height: 35px;
+    margin-top: 40px;
     font-size: 20px;
-    padding-left:  40px;
-    padding-bottom: 20px;
-    padding-top: 5px;
+    padding-right: 8px;
+
     border-radius: 6px;
     border: 1px solid  rgb(130, 130, 130);
     cursor: pointer;
+    
 
     
 }
 
 .world-img{
-    position: relative;
+    
     height: 3.0015rem;
     transform: scale(0.488889);
     border-radius: 5px;
-    height: 40px;
-    top: 37px;
+    margin-bottom: 4px;
     z-index: 1;
-    right:  1px;
+    margin-left: -57px;
     cursor: pointer;
     
 }
 
 .world-button{
-    width: 120px;
-    height: 35px;
+    margin-top: 40px;
     font-size: 20px;
-    padding-left:  40px;
-    padding-bottom: 20px;
-    padding-top: 5px;
+    padding-right: 8px;
+
     border-radius: 6px;
     border: 1px solid  rgb(130, 130, 130);
     cursor: pointer;
     
+}
+
+.only-text{
+    padding-left: 60px;
+    margin-top: -38px;
+    padding-bottom: 6px;
 }
 
 footer{
