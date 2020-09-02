@@ -1,0 +1,165 @@
+@media (max-width: 1024px){
+    .desktop{
+      width: 100%;
+    }
+    nav a{
+        margin-right: -120px;
+    }
+    .text{
+        width: 350px;
+        margin-left: 85px;
+        
+    }
+}    
+
+@media (max-width: 600px){
+    .desktop{
+        width: 100%;
+    }
+    .login{
+        font-size: 11px;
+        margin-left: 320px;
+       
+    }
+    .singup{
+        font-size: 11px; 
+        margin-left: 287px;
+        position: relative;
+        top: 10px;
+    }
+    .logo{
+        font-size: 10px;
+        position: relative;
+        left: 10px;
+    }
+    .discover{
+        font-size: 40px;
+    }
+
+    .text{
+        font-size: 12px;
+        margin-left: -5px;
+        width: 310px;
+       
+    }
+
+    .search{
+        height: 28px;
+        width: 30px;
+        
+        left: 150px;
+        top: -36px;
+    }
+    .zomato{
+        height: 75px;
+        width: 285px;
+    
+    }
+    .img-section-1{
+        margin-left: 18px;
+    }
+    .tag{
+        margin-left: 100px;
+        position: relative;
+        left: -59px;
+        padding-left: 60px;
+    }
+    .img-section-2{
+        margin-left: 22px;
+    }
+    .popular-title{
+        font-size: 25px;
+    }
+    .place-button-tag{
+        margin-left: 15px;
+    }
+    .explore-tag{
+        margin-left: 60px;
+    }
+    h2{
+        margin-left: 38px;
+    }
+    h3{
+        margin-left: 40px;
+        padding-right: 38px;
+    }
+    .shop-tag{
+        padding-right: 19px;
+    }
+
+    .bi a{
+        font-size: 10px;
+    }
+
+    .food-name-1{
+        margin-left: -90px;
+       
+    }
+
+    .food-name-2{
+        margin-left: -90px;
+    }
+    .food-name-3{
+        margin-left: -90px;
+    }
+
+    .food-name-4{
+        margin-left: -90px;
+    }
+
+    .food-name-5{
+        margin-left: -90px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .kfc {
+        margin-left: -68px;
+    }
+    .paradise-biryani{
+        margin-left: -110px;
+    }
+    .food-name-6{
+        margin-left: -90px;
+    }
+    .last-section-1{
+        margin-left: -66px;
+    }
+    .last-section-3{
+        margin-left: -70px;
+        padding-top: 30px;
+    }
+    .last-section-4{
+        margin-left: -74px;
+        padding-top: 30px;
+    }
+    .last-section-5{
+        margin-left: -85px;
+        padding-top: 30px;
+    }
+    .world-button{
+        width: 120%;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .india-button{
+        width: 120%;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .move{
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .move-down{
+        margin-top: 20px;
+        padding-left: 10px;  
+    }
+    .copy-right{
+        font-size: 12px;
+        margin-left: 18px
+    }
+
+}
+
+
+
