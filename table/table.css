@@ -118,4 +118,46 @@ span{
 .set-error-color-yellow{
     color: #e1e10ddb;
 }
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 95%;
+    background-color: #f2f2f2;
+}
 
+tr{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+td{
+    padding: 15px;
+    border-left: 2px solid skyblue;
+}
+
+th{
+    padding: 15px;
+    border-left: 2px solid skyblue;
+}
+
+.error-colorred{
+    color: red;
+}
+
+.error-color{
+    color: darkkhaki;
+}
+
+.no-bor{
+    border-left: 2px solid white;
+}
+
+.row-borg{
+    border-top: 1px solid grey;
+}
+
+.row-bor{
+    border-top: 1px dotted skyblue;
+}
